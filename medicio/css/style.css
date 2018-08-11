@@ -728,7 +728,7 @@ hr.bold {
 
 .intro-content {
 	background: url(../img/dummy/bg1.jpg) no-repeat top center;
-	padding:200px 0 60px;
+	padding:150px 0 10px;
 }
 .intro-content.intro-nobg {
 	background:#fff;
@@ -1078,9 +1078,11 @@ Testimonial
 
 #testimonial {
 	background-image: url(../img/parallax/1.jpg);
+    padding-top: 10px;
+    padding-bottom : 20px;
 }
 
-.carousel-control.left,.carousel-control.right  {background:none;width:25px; z-index: 999;}
+.carousel-control.left,.carousel-control.right  {background:none;width:0px; z-index: 999;}
 .carousel-control.left {top:left:-25px;}
 .carousel-control.right {right:-25px;}
 
