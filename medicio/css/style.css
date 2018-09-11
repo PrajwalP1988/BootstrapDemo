@@ -1406,12 +1406,15 @@ Testimonial
 ============================ */
 
 footer {
-    background-color: #f2f2f2;
+    background-color: #0498bd;
 }
 
 footer {
-	padding: 50px 0 0;
-	
+	padding: 50px 0 0;	
+}
+
+footer a, p{
+    color: #fff;
 }
 
 footer .widget {
@@ -1424,16 +1427,19 @@ footer .widget h5 {
 	text-transform: uppercase;
 }
 
-
 .sub-footer {
-	margin-top: 30px;
-    background-color: #f7f7f7;
-	border-top: 1px solid #ddd;
-	padding: 30px 0 10px;
+    margin-top: 30px;
+    background-color: #035a95;
+    border-top: 1px solid #035a95;
+    padding: 30px 0 10px;
 }
 
 .sub-footer a{
-	color: #444;
+	color: rgba(0,0,0,.2);
+}
+
+.sub-footer p{
+    color: #fff;
 }
 
 footer .sub-footer  p {
