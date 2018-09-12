@@ -870,11 +870,15 @@ a.read_more2:hover {
 	padding:10px 0 10px;
 }
 
+.intro-content_new p{
+    color:#000;
+}
+
 .intro-content.intro-nobg {
-	background:#fff;
-	position:relative;
-	margin:0;
-	padding:140px 0 60px;
+    background: #fff;
+    position: relative;
+    margin: 0;
+    padding: 140px 0 60px;
 }
 
 .slogan {
