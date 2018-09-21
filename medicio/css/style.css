@@ -2134,6 +2134,10 @@ a.btn:focus{
         height: 100%;
         margin-top: -140px;
     }
+
+    .hero_wrapper {
+        background-position: center;
+    }
     
     .form-wrapper img {
         width:80%;
