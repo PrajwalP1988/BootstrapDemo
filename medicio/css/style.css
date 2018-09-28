@@ -725,9 +725,20 @@ hr.bold {
 	background: #fafafa;
 }
 
+.bg-orange {
+    background: linear-gradient(to bottom, #f97b0e 10%, #fecf71);
+}
 
-.bg-dark {
-	background: #404040;
+.bg-blue {
+    background: linear-gradient(to bottom, #62c2e4 10%, #fff);
+}
+
+.bg-dblue {
+    background: linear-gradient(to bottom, #035a95 40%, #62c2e4);
+}
+
+.bg-dark1 {
+    background: linear-gradient(to right, #666 60%, #444);
 }
 
 /* --- section color var --- */
@@ -889,17 +900,19 @@ a.read_more2:hover {
 }
 
 .intro-content {
-    background-color: #f97b0e;
 	padding:10px 0 10px;
 }
 
 .intro-content_new {
-    background-color: #fecf71;
 	padding:10px 0 10px;
 }
 
+.intro-content_new h4{
+    color:#035a95;
+}
+
 .intro-content_new p{
-    color:#000;
+    color:#035a95;
 }
 
 .intro-content.intro-nobg {
