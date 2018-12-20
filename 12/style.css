@@ -437,6 +437,108 @@ img {
 .nicescroll-rails {
   z-index: 999999 !important; }
 
+
+/*********************************
+3.3 Logo
+*********************************/
+
+.logo_container_outer
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.logo_container
+{
+	position: absolute;
+	top: 0;
+	left: 15px;
+	width: 216px;
+	height: 177px;
+	background: #FFFFFF;
+	box-shadow: 0px 31px 29px rgba(0,0,0,0.09);
+	z-index: 10;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.header.scrolled .logo_container
+{
+	top: 48px;
+	height: 120px;
+}
+.logo_container a
+{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.logo_content
+{
+	width: 100%;
+	height: 100%;
+	padding-left: 25px;
+}
+.logo_line
+{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 4px;
+	background: #20d34a;
+}
+.logo
+{
+	margin-top: 70px;
+}
+.logo span
+{
+	color: #20d34a;
+}
+.logo_container a .logo:hover
+{
+	color: #283290;
+}
+.logo_text
+{
+	font-size: 30px;
+	font-weight: 500;
+	color: #283290;
+	line-height: 0.75;
+    padding-left: 4px;
+}
+.logo_box
+{
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	background: #20d34a;
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: 23px;
+	text-align: center;
+	-webkit-transform: translateY(-2px);
+	-moz-transform: translateY(-2px);
+	-ms-transform: translateY(-2px);
+	-o-transform: translateY(-2px);
+	transform: translateY(-2px);
+	margin-left: 1px;
+}
+.logo_sub
+{
+	font-size: 14px;
+	font-weight: 400;
+	color: #8f8e8e;
+	margin-top: 2px;
+}
+
+
+
 /* :: 4.0 Header Area CSS */
 .header-area {
   position: absolute;
@@ -576,7 +678,7 @@ img {
   position: relative;
   z-index: 1;
   width: 100%;
-  height: 900px; }
+  height: 700px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .single-hero-slide {
       height: 700px; } }
