@@ -1212,7 +1212,7 @@ textarea {
   margin-top: 1px;
   border: 2px solid;
   border-color: #006cff;
-  padding: 70px; }
+  padding: 30px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .medilife-tabs-content .medilife-tab-content {
       padding: 30px; } }
@@ -1389,7 +1389,7 @@ textarea {
   .single-blog-area .post-content {
     position: relative;
     z-index: 1;
-    padding: 50px 20px; }
+    padding: 30px 20px 10px; }
     .single-blog-area .post-content .post-author {
       width: 58px;
       height: 58px;
