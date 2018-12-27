@@ -849,6 +849,11 @@ textarea {
   margin-bottom: 0; }
 
 /* :: 7.0 About Us Area CSS */
+
+.medica-about-content p {
+    color: #ffffff;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .medica-about-content {
     margin-bottom: 100px; } }
@@ -868,7 +873,7 @@ textarea {
   z-index: 1; }
 
 .single-service-area {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms; }
   .single-service-area .service-icon {
@@ -887,7 +892,11 @@ textarea {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms; }
   .single-service-area .service-content {
-    margin-top: 15px; }
+    margin-top: 0;
+  }
+.service-content h5 {
+    color: #ffd800;
+}
     .single-service-area .service-content h5 {
       font-size: 22px;
       margin-bottom: 15px;
