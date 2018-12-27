@@ -31,6 +31,7 @@
 :: 19.0 Blog Area CSS
 :: 20.0 Contact Area CSS
 :: 21.0 Shortcode Area CSS
+:: 22.0 Accordions and Tabs
 ------------------------------------------------ */
 /* :: 1.0 Import Fonts */
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
@@ -1753,3 +1754,232 @@ textarea {
       color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
+
+/*********************************
+22.0 Accordions & Tabs
+*********************************/
+div
+{
+	display: block;
+	position: relative;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.accordions_tabs
+{
+	width: 100%;
+	background: #FFFFFF;
+}
+.accordions_tabs_row
+{
+}
+.accordion_container:not(:last-child)
+{
+	margin-bottom: 10px;
+}
+.accordion
+{
+	height: 60px;
+	width: 100%;
+	background: #f4f5fb;
+	padding-left: 35px;
+	cursor: pointer;
+	color: #232323;
+	font-size: 18px;
+	font-weight: 500;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.accordion::before
+{
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 3px;
+	content: '';
+	background: #20d34a;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.accordion div
+{
+	max-width: 90%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.accordion.active,
+.accordion:hover
+{
+	background: #283290;
+	color: #FFFFFF;
+}
+.accordion:active
+{
+	background: #fffbfa !important;
+}
+.accordion::after
+{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	right: 13px;
+	height: 100%;
+	content: '+';
+	font-size: 16px;
+	color: #232323;
+	font-weight: 400;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.accordion.active::after
+{
+	color: #FFFFFF;
+	content: '-';
+}
+.accordion:hover::after
+{
+	color: #FFFFFF;
+}
+.accordion:hover
+{
+	
+}
+.accordion_panel
+{
+	padding-right: 8px;
+	max-height: 0px;
+	overflow: hidden;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+.accordion_panel > div
+{
+	padding-bottom: 19px;
+}
+.accordion_panel p
+{
+	padding-top: 35px;
+}
+.tabs
+{
+	
+}
+.tabs_container
+{
+	width: 100%;
+}
+.tab
+{
+	height: 60px;
+	background: #f4f5fb;
+	font-size: 18px;
+	color: #232323;
+	font-weight: 500;
+	line-height: 60px;
+	text-align: center;
+	cursor: pointer;
+	padding-left: 42px;
+	padding-right: 44px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.tab:not(:last-child)
+{
+	margin-right: 7px;
+}
+.tab::after
+{
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 3px;
+	content: '';
+	background: #20d34a;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.tab.active,
+.tab:hover
+{
+	background: #283290;
+	color: #FFFFFF;
+}
+.tab_panels
+{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 41px;
+	padding-bottom: 32px;
+}
+.tab_panel
+{
+	display: none !important;
+	width: 100%;
+	height: 100%;
+	-webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.tab_panel.active
+{
+	display: block !important;
+}
+.tab_panel_content p:last-of-type
+{
+	margin-bottom: 0;
+}
+.tab_text p
+{
+	-webkit-transform: translateY(-6px);
+	-moz-transform: translateY(-6px);
+	-ms-transform: translateY(-6px);
+	-o-transform: translateY(-6px);
+	transform: translateY(-6px);
+}
+.tab_text img
+{
+	width: 190px;
+	height: 177px;
+	float: right;
+	margin-left: 15px;
+}
