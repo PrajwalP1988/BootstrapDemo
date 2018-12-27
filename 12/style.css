@@ -528,12 +528,11 @@ img {
 	margin-left: 1px;
     background-image: url(img/core-img/tree.png);
 }
-.logo_sub
-{
-	font-size: 14px;
-	font-weight: 400;
-	color: #8f8e8e;
-	margin-top: 2px;
+.logo_sub {
+    font-size: 14px;
+    font-weight: 400;
+    color: #283290;
+    margin-top: 2px;
 }
 
 
