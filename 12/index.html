@@ -17,6 +17,21 @@
     <!-- Style CSS -->
     <link rel="stylesheet" href="style.css">
 
+    <script type="text/javascript">
+        function SendMail()
+        {
+            Email.send({
+                SecureToken: "81d6efd0-e5ac-4675-b895-f97740865de1",
+                To: 'info@panchaminaturecure.co.in',
+                From: "info@panchaminaturecure.co.in",
+                Subject: "This is the subject",
+                Body: "And this is the body"
+            }).then(
+  message => alert(message)
+);
+        }
+    </script>
+
 </head>
 
 <body>
@@ -34,7 +49,7 @@
                     <div class="col-12 h-100">
                         <div class="h-100 d-md-flex justify-content-between align-items-center">
                             <p></p>
-                            <p>Contact : <span>+91-9900199002</span></p>                            
+                            <a href="tel:+919900199002">Contact : <span>+91-9900199002</span></a>
                             <!--<a href="tel:+919900199002"><p>Contact : <span>+91-9900199002</span></p></a>-->
                         </div>
                     </div>
@@ -1206,7 +1221,7 @@
                                     <input type="text" class="form-control border-top-0 border-right-0 border-left-0" name="footer-name" id="footer-name" placeholder="Name">
                                     <input type="email" class="form-control border-top-0 border-right-0 border-left-0" name="footer-email" id="footer-email" placeholder="Email">
                                     <textarea name="message" class="form-control border-top-0 border-right-0 border-left-0" id="footerMessage" placeholder="Message"></textarea>
-                                    <button type="submit" class="btn medilife-btn">Contact Us <span>+</span></button>
+                                    <button type="submit" class="btn medilife-btn" onclick="SendMail();">Contact Us <span>+</span></button>
                                 </form>
                             </div>
                         </div>
@@ -1265,6 +1280,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/elements.js"></script>
     <!-- ScrollMagic js -->
     <script src="js/ScrollMagic.min.js"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
 </body>
 
