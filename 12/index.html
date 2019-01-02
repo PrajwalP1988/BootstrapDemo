@@ -18,18 +18,10 @@
     <link rel="stylesheet" href="style.css">
 
     <script type="text/javascript">
-        function SendMail()
-        {
-            Email.send({
-                SecureToken: "81d6efd0-e5ac-4675-b895-f97740865de1",
-                To: 'info@panchaminaturecure.co.in',
-                From: "info@panchaminaturecure.co.in",
-                Subject: "This is the subject",
-                Body: "And this is the body"
-            }).then(
-  message => alert(message)
-);
-        }
+        $("#gform").ajaxSubmit({
+            url: 'index.html',
+            type: 'post'
+        })
     </script>
 
 </head>
@@ -1149,6 +1141,20 @@
     </div>
     <!-- ***** Emergency Area End ***** -->
 
+    <form id="gform" class="gform" action="https://script.google.com/macros/s/AKfycbzK4ZPQz-IYTfYYBYRopf1vZxaZZkbRtFegEwTRE1Q5p-GL21o/exec" method="post">
+        <!-- Form input fields here (do not forget your name attributes). -->
+        <input type="text" name="Message" />
+        <input type="text" name="MobileNo" />
+        <button name="submit" type="submit">Submit</button>
+    </form>
+
+    <div style="display:none" class="thankyou_message">
+        <!-- You can customize the thankyou message by editing the code below -->
+        <h2>
+            <em>Thanks</em> for contacting us! We will get back to you soon!
+        </h2>
+    </div>
+
     <!-- ***** Footer Area Start ***** -->
     <footer class="footer-area section-padding-100">
         <!-- Main Footer Area -->
@@ -1281,7 +1287,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!-- ScrollMagic js -->
     <script src="js/ScrollMagic.min.js"></script>
 
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 
 </body>
 
