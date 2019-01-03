@@ -542,7 +542,98 @@ img {
 	padding-left: 20px;
 }
 
+@media only screen and (max-width: 991px) {
+    .logo_container {
+        width: 181px;
+    }
 
+    .logo_container img {
+        width: 100px;
+        height: 75px;
+    }
+
+    .logo_content {
+        padding-left: 28px;
+    }
+
+    .logo_text {
+        font-size: 24px;
+    }
+
+    .logo_sub {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .logo_box {
+        width: 18px;
+        height: 18px;
+        line-height: 18px;
+        font-size: 18px;
+        -webkit-transform: translateY(-1px);
+        -moz-transform: translateY(-1px);
+        -ms-transform: translateY(-1px);
+        -o-transform: translateY(-1px);
+        transform: translateY(-1px);
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .logo_container {
+        height: 127px;
+    }
+
+    .logo_container img {
+        width: 50px;
+        height: 25px;
+        padding-left:25px;
+    }
+
+    .logo {
+        margin-top: 9px;
+    }
+
+    .loader_col:not(:last-child) {
+        margin-bottom: 94px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .logo_container {
+        width: 141px;
+        height: 77px;
+    }
+
+    .logo_content {
+        padding-left: 20px;
+    }
+
+    .logo_text {
+        font-size: 16px;
+    }
+
+    .logo_box {
+        width: 12px;
+        height: 12px;
+        line-height: 12px;
+        font-size: 12px;
+    }
+
+    .logo_sub {
+        font-size: 10px;
+        padding-left: 1px;
+    }
+
+    .accordion {
+        height: 48px;
+        font-size: 16px;
+    }
+
+    .accordion_panel p {
+        padding-top: 25px;
+    }
+}
 
 /* :: 4.0 Header Area CSS */
 .header-area {
@@ -656,10 +747,20 @@ img {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-toggler {
-    margin: 20px 0; } }
+    margin: 20px 0; }
+  .navbar-brand img {
+      width: 50px;
+      height: 50px;
+  }
+}
 @media only screen and (max-width: 767px) {
   .navbar-toggler {
-    margin: 15px 0; } }
+    margin: 15px 0; }
+  .navbar-brand img {
+      width: 40px;
+      height: 40px;
+  }
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   #medilifeMenu {
@@ -688,10 +789,10 @@ img {
   height: 700px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .single-hero-slide {
-      height: 700px; } }
+      height: 400px; } }
   @media only screen and (max-width: 767px) {
     .single-hero-slide {
-      height: 700px; } }
+      height: 400px; } }
 
 .hero-slides-content h2 {
   color: #ffffff;
