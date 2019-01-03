@@ -474,3 +474,6 @@
 .icon-clipboard:before {
   content: "\e995";
 }
+.icon-Akash:before {
+  content: url(../img/core-img/logo.png);
+}

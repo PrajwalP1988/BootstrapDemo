@@ -1000,6 +1000,9 @@ textarea {
     color: #ffffff;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms; }
+  .single-service-area img {
+      padding-bottom: 10px;
+  }
   .single-service-area .service-content {
     margin-top: 0;
   }
@@ -1303,18 +1306,20 @@ textarea {
   display: block;
   border-radius: 0 !important;
   border: none;
-  border-bottom: 20px solid #ffffff;
+  border-bottom: 20px solid lightgreen;
   font-size: 18px;
   color: #081f3e; }
   .medilife-tabs-content .nav-link:hover, .medilife-tabs-content .nav-link:focus {
-    border-color: #ffffff; }
+    background-color: #006cff;
+    border-color: lightgreen;
+  }
   .medilife-tabs-content .nav-link.active {
     background-color: #006cff;
     color: #ffffff;
-    border-color: #006cff; }
+    border-color: lightgreen; }
     @media only screen and (max-width: 767px) {
       .medilife-tabs-content .nav-link.active {
-        border-color: #ffffff; } }
+        border-color: lightgreen; } }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .medilife-tabs-content .nav-link {
       padding: 15px; } }
