@@ -32,6 +32,7 @@
 :: 20.0 Contact Area CSS
 :: 21.0 Shortcode Area CSS
 :: 22.0 Accordions and Tabs
+:: 23.0 Maps
 ------------------------------------------------ */
 /* :: 1.0 Import Fonts */
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
@@ -1885,6 +1886,7 @@ div
 {
 	width: 100%;
 	background: #FFFFFF;
+    padding-top: 50px;
 }
 .accordions_tabs_row
 {
@@ -1991,11 +1993,11 @@ div
 }
 .accordion_panel > div
 {
-	padding-bottom: 19px;
+	padding-bottom: 0;
 }
 .accordion_panel p
 {
-	padding-top: 35px;
+	padding-top: 15px;
 }
 .tabs
 {
@@ -2096,4 +2098,66 @@ div
 	height: 177px;
 	float: right;
 	margin-left: 15px;
+}
+
+/*********************************
+23.0 Maps
+*********************************/
+
+.map-responsive {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
+    .map-responsive iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
+.map {
+    width: 100%;
+}
+
+.google_map {
+    width: 100%;
+    height: 610px;
+}
+
+.map_container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 991px) {
+    .map_contact {
+        width: 341px;
+        height: 301px;
+    }
+
+    .map_contact_inner {
+        padding-left: 45px;
+        padding-right: 20px;
+    }
+
+        .map_contact_inner::after {
+            top: 28px;
+            left: 31px;
+        }
+}
+
+@media only screen and (max-width: 767px) {
+    .map_contact {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .google_map {
+        height: 50vh;
+    }
 }
