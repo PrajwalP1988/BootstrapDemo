@@ -517,7 +517,7 @@ img {
 	font-weight: 500;
 	color: #283290;
 	line-height: 0.75;
-    padding-left: 5px;
+    padding-left: 20px;
 }
 .logo_box
 {
@@ -543,6 +543,10 @@ img {
 	padding-left: 20px;
 }
 
+.logo_image {
+    padding-left: 30px;
+}
+
 @media only screen and (max-width: 991px) {
     .logo_container {
         width: 181px;
@@ -551,6 +555,10 @@ img {
     .logo_container img {
         width: 100px;
         height: 75px;
+    }
+    
+    .logo_image img {
+        padding-left: 60px;
     }
 
     .logo_content {
@@ -602,16 +610,21 @@ img {
 
 @media only screen and (max-width: 575px) {
     .logo_container {
-        width: 141px;
+        width: 150px;
         height: 77px;
     }
 
     .logo_content {
-        padding-left: 20px;
+        padding-left: 0;
+    }
+
+    .logo_image {
+        padding-left: 40px;
     }
 
     .logo_text {
         font-size: 16px;
+        padding-left: 40px;
     }
 
     .logo_box {
@@ -622,8 +635,7 @@ img {
     }
 
     .logo_sub {
-        font-size: 10px;
-        padding-left: 1px;
+        font-size: 9px;
     }
 
     .accordion {
@@ -751,7 +763,7 @@ img {
     margin: 20px 0; }
   .navbar-brand img {
       width: 50px;
-      height: 50px;
+      height: 30px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -759,7 +771,7 @@ img {
     margin: 15px 0; }
   .navbar-brand img {
       width: 40px;
-      height: 40px;
+      height: 20px;
   }
 }
 
