@@ -678,7 +678,12 @@ img {
   @media only screen and (max-width: 767px) {
     .top-header-area {
       height: auto;
-      padding: 15px 0; } }
+      padding: 15px 0;
+    }
+    .top-header-area p a {
+       font-size: 12px;
+    }
+  }
 
 .main-header-area {
   width: 100%;
@@ -1134,6 +1139,10 @@ textarea {
   background-color: #020f20;
   padding-left: 45px;
   padding-right: 45px; }
+.footer-social-info {
+  padding-top: 8px;
+  padding-left: 30px;
+}
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .footer-area {
       padding-left: 30px;
@@ -1162,7 +1171,9 @@ textarea {
   color: #ffffff;
   margin-bottom: 0; }
 .footer-widget-area .footer-social-info {
-  margin-top: 40px; }
+  margin-top: 40px;
+  padding-left: 50px;
+}
   .footer-widget-area .footer-social-info a {
     color: #ffffff;
     margin-right: 15px;
