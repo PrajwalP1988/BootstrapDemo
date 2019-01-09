@@ -4,6 +4,17 @@
         return re.test(email);
     }
 
+    function validInput() {
+        var name = document.forms["gform"]["name"].value;
+        var phone = document.forms["gform"]["number"].value;
+        var mail = document.forms["gform"]["email"].value;
+        var message = document.forms["gform"]["message"].value;
+        if (name == "" || phone == "" || mail == "" || message == "") {
+            alert("All details must be filled out");
+            return false;
+        }
+    }
+
     function validateHuman(honeypot) {
         if (honeypot) {  //if hidden form filled up
             console.log("Robot Detected!");
@@ -69,16 +80,12 @@
           return false;
         }
         */
-
-        if (data.email && !validEmail(data.email)) {   // if email is not valid show error
-            var invalidEmail = form.querySelector(".email-invalid");
-            if (invalidEmail) {
-                invalidEmail.style.display = "block";
-                return false;
-            }
+        
+       if (validInput() == false) {   // if email is not valid show error
+           return false;
         } else {
             disableAllButtons(form);
-            var url = form.action;
+            var url = "https://script.google.com/macros/s/AKfycbzVf45_tcFec1DZirT5Z8SoucDX0n23hH8F3kOjQP8p6BLu1fI/exec";
             var xhr = new XMLHttpRequest();
             xhr.open('POST', url);
             // xhr.withCredentials = true;
@@ -101,9 +108,11 @@
                 return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
             }).join('&');
             xhr.send(encoded);
+
+            enableAllButtons(form);
+            document.getElementById("gform").reset();
+            alert("Details successfully submitted to Panchami");
         }
-        enableAllButtons(form);
-        document.getElementById("gform").reset();
     }
 
     function loaded() {
