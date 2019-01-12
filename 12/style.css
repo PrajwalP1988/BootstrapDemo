@@ -299,7 +299,7 @@ img {
 .medilife-btn {
   display: inline-block;
   color: #ffffff;
-  background-color: #006cff;
+  background-color: #081f3e;
   height: 45px;
   padding: 0 55px 0 30px;
   line-height: 42px;
@@ -325,7 +325,7 @@ img {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms; }
   .medilife-btn:hover, .medilife-btn:focus {
-    background-color: #081f3e;
+    background-color: #ff0000;
     color: #ffffff; }
   .medilife-btn:hover span, .medilife-btn:focus span {
     color: #ffffff;
@@ -389,6 +389,38 @@ img {
       margin-top: 30px; } }
   @media only screen and (max-width: 767px) {
     .medilife-appoint-btn {
+      margin-top: 10px; } }
+
+.medilife-call-btn {
+  display: inline;
+  color: #ffffff;
+  background-color: #ff0000;
+  height: 30px;
+  font-size: 14px;
+  min-width: 140px;
+  border-radius: 50px;
+  font-weight: 700;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  text-transform: uppercase;
+  box-shadow: none; }
+  .medilife-call-btn span {
+    font-weight: 700;
+  }
+  .medilife-call-btn:hover, .medilife-call-btn:focus {
+    color: #006cff;
+    background-color: #ffffff;
+    box-shadow: none;
+    font-weight: 700; }
+  .medilife-call-btn:hover span, .medilife-call-btn:focus span {
+    font-weight: 700;
+    color: #006cff;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .medilife-call-btn {
+      margin-top: 30px; } }
+  @media only screen and (max-width: 767px) {
+    .medilife-call-btn {
       margin-top: 10px; } }
 
 .bg-overlay {
@@ -637,15 +669,6 @@ img {
     .logo_sub {
         font-size: 9px;
     }
-
-    .accordion {
-        height: 48px;
-        font-size: 16px;
-    }
-
-    .accordion_panel p {
-        padding-top: 25px;
-    }
 }
 
 /* :: 4.0 Header Area CSS */
@@ -665,8 +688,12 @@ img {
   .top-header-area p {
     margin-bottom: 0;
     color: #b5b5b5; }
+    .top-header-area p a {
+        font-size: 18px;
+    }
     .top-header-area p span {
-      color: #006cff; }
+      color: #ffffff;
+    }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .top-header-area p {
         font-size: 13px; } }
@@ -674,7 +701,11 @@ img {
       .top-header-area p {
         font-size: 12px;
         text-align: right;
-      } }
+      }
+      .top-header-area p a {
+        font-size: 12px;
+      }
+    }
   @media only screen and (max-width: 767px) {
     .top-header-area {
       height: auto;
@@ -731,7 +762,11 @@ img {
   @media only screen and (max-width: 767px) {
     .header-area .main-menu .nav-link {
       padding: 10px 30px;
-      margin: 1px 0; } }
+      margin: 1px 0; }
+    .header-area .main-menu .nav-item a img {
+        margin-left: 30px;
+    }
+  }
 
 .header-area .main-menu .nav-item.active .nav-link {
   background-color: #006cff; }
@@ -775,8 +810,8 @@ img {
   .navbar-toggler {
     margin: 15px 0; }
   .navbar-brand img {
-      width: 40px;
-      height: 20px;
+      width: 75px;
+      height: 50px;
   }
 }
 
@@ -936,11 +971,14 @@ textarea {
 .medilife-book-an-appoinment-area {
   position: relative;
   z-index: 1;
-  margin-top: -65px; }
+  margin-top: -65px;
+}
   .medilife-book-an-appoinment-area .appointment-form-content {
-    background-color: #006cff; }
+    background-color: #ffffff;
+    border: solid 3px #000000;
+  }
   .medilife-book-an-appoinment-area .medilife-appointment-form {
-    background-color: #081f3e;
+    background-color: #006cff;
     padding: 60px 50px; }
     .medilife-book-an-appoinment-area .medilife-appointment-form select {
       border: 2px solid #536174;
@@ -2121,6 +2159,23 @@ div
 	height: 177px;
 	float: right;
 	margin-left: 15px;
+}
+
+@media only screen and (max-width: 767px)
+{
+	.accordion
+	{
+        padding-left: 10px;
+	}
+    .accordion div {
+        font-size: 14px;
+        white-space: normal;
+    }
+
+	.accordion_panel p
+	{
+		padding-top: 0;
+	}
 }
 
 /*********************************
