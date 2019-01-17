@@ -5,24 +5,7 @@
 
     var $window = $(window);
 
-    // :: Preloader Active Code
-    $window.on('load', function () {
-        $('#preloader').fadeOut('slow', function () {
-            $(this).remove();
-        });
-    });
 
-    // :: Fullscreen Active Code
-    $window.on('resizeEnd', function () {
-        $(".full_height").height($window.height());
-    });
-
-    $window.on('resize', function () {
-        if (this.resizeTO) clearTimeout(this.resizeTO);
-        this.resizeTO = setTimeout(function () {
-            $(this).trigger('resizeEnd');
-        }, 300);
-    }).trigger("resize");
 
     // :: Sticky Active Code
     if ($window.width() > 767) {
@@ -36,19 +19,7 @@
     // :: Tooltip Active Code
     $('[data-toggle="tooltip"]').tooltip()
 
-    // :: Nicescroll Active Code
-    if ($.fn.niceScroll) {
-        $("body, textarea").niceScroll({
-            cursorcolor: "#151515",
-            cursorwidth: "6px",
-            background: "#f0f0f0"
-        });
-    }
 
-    // :: Nice Select Active Code
-    if ($.fn.niceSelect) {
-        $('select').niceSelect();
-    }
 
     // :: Owl Carousel Active Code
     if ($.fn.owlCarousel) {
