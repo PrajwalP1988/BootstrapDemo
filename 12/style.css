@@ -1375,6 +1375,9 @@ textarea {
     background-color: #006cff;
     border-color: lightgreen;
   }
+  .medilife-tab-img button {
+      margin-bottom: 10px;
+  }
   .medilife-tabs-content .nav-link.active {
     background-color: #006cff;
     color: #ffffff;
@@ -1398,6 +1401,10 @@ textarea {
   border: 2px solid;
   border-color: #006cff;
   padding: 30px; }
+.medilife-tab-content button {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .medilife-tabs-content .medilife-tab-content {
       padding: 30px; } }
@@ -1430,7 +1437,9 @@ textarea {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 45%;
     flex: 0 0 45%;
-    min-width: 45%; }
+    min-width: 45%;
+    text-align: center;
+  }
 
 /* :: 16.0 Services Area CSS */
 .singleServiceArea {

@@ -348,9 +348,6 @@
                                 <a class="nav-link" id="detox-tab" data-toggle="tab" href="#detox" role="tab" aria-controls="detox" aria-selected="false">Detox Therapy</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="massage-tab" data-toggle="tab" href="#massage" role="tab" aria-controls="massage" aria-selected="false">Massage Therapy</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link" id="fasting-tab" data-toggle="tab" href="#fasting" role="tab" aria-controls="fasting" aria-selected="false">Fasting Therapy</a>
                             </li>
                             <li class="nav-item">
@@ -367,28 +364,28 @@
                             <div class="tab-pane fade show active" id="ibt" role="tabpanel" aria-labelledby="ibt-tab">
                                 <div class="medilife-tab-content d-md-flex align-items-center">
                                     <!-- Medilife Tab Text  -->
-                                    <div class="medilife-tab-text">
-                                        <h2>Specific Treatment for an individual</h2>
-                                        <table border="1">
+                                    <div class="medilife-tab-text table-responsive">
+                                        <h3>Specific Treatment for an individual</h3>
+                                        <table class="table">
                                             <tr>
-                                                <th></th>
-                                                <th><h5>Price</h5></th>
+                                                <td align="center"><button class="btn btn-danger">Description</button></td>
+                                                <td align="center"><button class="btn btn-danger">Price per Day</button></td>
                                             </tr>
                                             <tr>
-                                                <td><h5>Room charges (Sharing Room) with Diet</h5></td>
-                                                <td><a>300 per day *</a></td>
+                                                <td><button class="btn btn-warning">Room charges (Sharing Room) with Diet</button></td>
+                                                <td align="center"><button class="btn btn-primary">300 *</button></td>
                                             </tr>
                                             <tr>
-                                                <td><h5>Room charges (Special Room) with Diet</h5></td>
-                                                <td><a>450 per day *</a></td>
+                                                <td><button class="btn btn-warning">Room charges (Special Room) with Diet</button></td>
+                                                <td align="center"><button class="btn btn-primary">450 *</button></td>
                                             </tr>
                                             <tr>
-                                                <td><h5>Accompanying Person ( Acc. + Food)</h5></td>
-                                                <td><a>450 per day *</a></td>
+                                                <td><button class="btn btn-warning">Accompanying Person ( Acc. + Food)</button></td>
+                                                <td align="center"><button class="btn btn-primary">450 *</button></td>
                                             </tr>
                                             <tr>
-                                                <td><h5>VIP Cottage</h5></td>
-                                                <td><a>3000 per day *</a></td>
+                                                <td><button class="btn btn-warning">VIP Cottage</button></td>
+                                                <td align="center"><button class="btn btn-primary">3000 *</button></td>
                                             </tr>
                                             <tr>
                                                 <th colspan="2">
@@ -399,80 +396,83 @@
                                     </div>
                                     <!-- Medilife Tab Img  -->
                                     <div class="medilife-tab-img">
-                                        <h5>Yoga</h5>
-                                        <h5>Prayer, Pranayama, Meditation</h5>
-                                        <h5>Trataka (eye exercises)</h5>
-                                        <h5>Nutritious Satwik Diet</h5>
-                                        <h5>Various Activities</h5>                                        
+                                        <button class="btn btn-dark">Yoga</button>
+                                        <button class="btn btn-dark">Prayer, Pranayama, Meditation</button>
+                                        <button class="btn btn-dark">Trataka (eye exercises)</button>
+                                        <button class="btn btn-dark">Nutritious Satwik Diet</button>
+                                        <button class="btn btn-dark">Various Activities</button>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="massage" role="tabpanel" aria-labelledby="massage-tab">
+                            <div class="tab-pane fade" id="massage" role="tabpanel" aria-labelledby="massage-tab">                                
                                 <div class="medilife-tab-content d-md-flex align-items-center">
-                                    <!-- Medilife Tab Text  -->
-                                    <div class="medilife-tab-text">
-                                        <h2>Massage Therapy</h2>
-                                        <p>Aroma Massage</p>
-                                        <p>Back Body Massage + IR</p>
-                                        <p>Deep Tissue Massage + Steam Bath oh</p>
-                                        <p>Full Body Massage</p>
-                                        <p>Ginger Massage + IR</p>
-                                        <p>Head Massage</p>
-                                        <p>Head &amp; Shoulder Massage</p>
-                                        <p>Leg Reflexology + Hot Foot Immersion</p>
-                                    </div>
-                                    <!-- Medilife Tab Img  -->
-                                    <div class="medilife-tab-img">
-                                        <p>Mustard Oil Massage + IR</p>
-                                        <p>Neem Oil Massage + Steam Bath</p>
-                                        <p>Neem Oil Massage + Athapa Snana</p>
-                                        <p>Partial Massage</p>
-                                        <p>Salt Glow Oil Massage</p>
-                                        <p>Vibro Massage</p>
-                                        <p>Neem Oil Apply + Steam</p>
+                                    <div class="container">
+                                        <div class="row">
+                                            <h3>Massage Therapy</h3>
+                                        </div>
+                                        <div class="row">
+                                            <button class="btn btn-primary">Aroma Massage</button>
+                                            <button class="btn btn-secondary">Back Body Massage + IR</button>
+                                            <button class="btn btn-success">Deep Tissue Massage + Steam Bath oh</button>
+                                            <button class="btn btn-info">Full Body Massage</button>
+                                            <button class="btn btn-warning">Ginger Massage + IR</button>
+                                            <button class="btn btn-danger">Head Massage</button>
+                                            <button class="btn btn-dark">Head &amp; Shoulder Massage</button>
+                                            <button class="btn btn-warning">Leg Reflexology + Hot Foot Immersion</button>
+                                            <button class="btn btn-dark">Mustard Oil Massage + IR</button>
+                                            <button class="btn btn-success">Neem Oil Massage + Steam Bath</button>
+                                            <button class="btn btn-secondary">Neem Oil Massage + Athapa Snana</button>
+                                            <button class="btn btn-primary">Partial Massage</button>
+                                            <button class="btn btn-info">Salt Glow Oil Massage</button>
+                                            <button class="btn btn-danger">Vibro Massage</button>
+                                            <button class="btn btn-warning">Neem Oil Apply + Steam</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="baths" role="tabpanel" aria-labelledby="baths-tab">
                                 <div class="medilife-tab-content d-md-flex align-items-center">
-                                    <!-- Medilife Tab Text  -->
-                                    <div class="medilife-tab-text">
-                                        <h2>Baths</h2>
-                                        <p>Enema</p>
-                                        <p>Enema + Hip Bath</p>
-                                        <p>Ganji Turmeric Bath</p>
-                                        <p>Hip Bath</p>
-                                        <p>Hot Hand + Hot Foot Immersion</p>
-                                        <p>Immersion Bath</p>
-                                    </div>
-                                    <!-- Medilife Tab Img  -->
-                                    <div class="medilife-tab-img">
-                                        <p>Magnesium Immersion Bath</p>
-                                        <p>Mud Bath - General</p>
-                                        <p>Mud Bath - Partial</p>
-                                        <p>Sauna Bath</p>
-                                        <p>Spinal Bath</p>
-                                        <p>Steam Bath</p>
+                                    <div class="container">
+                                        <div class="row">
+                                            <h3>Baths</h3>
+                                        </div>
+                                        <div class="row">
+                                            <button class="btn btn-danger">Enema</button>
+                                            <button class="btn btn-warning">Enema + Hip Bath</button>
+                                            <button class="btn btn-danger">Ganji Turmeric Bath</button>
+                                            <button class="btn btn-warning">Hip Bath</button>
+                                            <button class="btn btn-danger">Hot Hand + Hot Foot Immersion</button>
+                                            <button class="btn btn-warning">Immersion Bath</button>
+                                            <button class="btn btn-danger">Magnesium Immersion Bath</button>
+                                            <button class="btn btn-warning">Mud Bath - General</button>
+                                            <button class="btn btn-danger">Mud Bath - Partial</button>
+                                            <button class="btn btn-warning">Sauna Bath</button>
+                                            <button class="btn btn-danger">Spinal Bath</button>
+                                            <button class="btn btn-warning">Steam Bath</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="packs" role="tabpanel" aria-labelledby="packs-tab">
                                 <div class="medilife-tab-content d-md-flex align-items-center">
-                                    <!-- Medilife Tab Text  -->
-                                    <div class="medilife-tab-text">
-                                        <h2>Packs</h2>
-                                        <p>Castor Oil Pack</p>
-                                        <p>Gastro-Hepatic Pack</p>
-                                        <p>Kidney Pack</p>
-                                        <p>Leg Pack</p>
-                                        <p>Mud Pack</p>
-                                    </div>
-                                    <!-- Medilife Tab Img  -->
-                                    <div class="medilife-tab-img">
-                                        <p>Mustard Pack</p>
-                                        <p>Oats Turmeric Pack - General</p>
-                                        <p>Oats Turmeric Pack - Local</p>
-                                        <p>Throat Pack</p>
+                                    <div class="container">
+                                        <div class="row">
+                                            <h3>Packs</h3>
+                                        </div>
+                                        <div class="row">
+                                            <button class="btn btn-primary">Castor Oil Pack</button>
+                                            <button class="btn btn-secondary">Gastro-Hepatic Pack</button>
+                                            <button class="btn btn-success">Kidney Pack</button>
+                                            <button class="btn btn-info">Leg Pack</button>
+                                            <button class="btn btn-warning">Mud Pack</button>
+                                            <button class="btn btn-danger">Mustard Pack</button>
+                                            <button class="btn btn-dark">Oats Turmeric Pack - General</button>
+                                            <button class="btn btn-warning">Oats Turmeric Pack - Local</button>
+                                            <button class="btn btn-info">Throat Pack</button>
+                                            <button class="btn btn-success">Sauna Bath</button>
+                                            <button class="btn btn-secondary">Spinal Bath</button>
+                                            <button class="btn btn-primary">Steam Bath</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -569,18 +569,6 @@
                                     <!-- Medilife Tab Img  -->
                                     <div class="medilife-tab-img">
                                         <img src="" class="lazy" data-original="img/bg-img/services/detox therapy.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="massage" role="tabpanel" aria-labelledby="massage-tab">
-                                <div class="medilife-tab-content d-md-flex align-items-center">
-                                    <!-- Medilife Tab Text  -->
-                                    <div class="medilife-tab-text">
-                                        <h2>Massage Therapy</h2>
-                                    </div>
-                                    <!-- Medilife Tab Img  -->
-                                    <div class="medilife-tab-img">
-                                        <img src="" class="lazy" data-original="img/bg-img/services/massage.jpeg" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -1462,6 +1450,96 @@
 
     <!-- ***** Footer Area Start ***** -->
     <footer class="footer-area">
+        <!-- Main Footer Area -->
+        <div class="main-footer-area">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area">
+                            <div class="footer-logo">
+                                <img src="img/core-img/logo.png" alt="">
+                            </div>
+                            <p>Here at our centre you can also have the divine grace of Gurumatha Amma, who has been a real transformer for thousands of people all across the globe.
+                            She has established Vyasa Veda Peeta-A centre for self realisation at Sridhara Sri Gudda.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area">
+                            <div class="widget-title">
+                                <h6>Latest News</h6>
+                            </div>
+                            <div class="widget-blog-post">
+                                <!-- Single Blog Post -->
+                                <div class="widget-single-blog-post d-flex">
+                                    <div class="widget-post-thumbnail">
+                                        <img src="img/bg-img/services/yogic kriyas.jpg" alt="" />
+                                    </div>
+                                    <div class="widget-post-content">
+                                        <a href="#">Yoga Fitness Classes</a>
+                                        <p>Starts from Feb 18, 2019</p>
+                                        <a>EveryDay</a>
+                                        <p>Batch-1 : 11.00AM to 12.00PM</p>
+                                        <p>Batch-2 : 04.00PM to 05.00PM</p>
+                                    </div>
+                                </div>
+                                <!-- Single Blog Post -->
+                                <div class="widget-single-blog-post d-flex">
+                                    <div class="widget-post-thumbnail">
+                                        <img src="img/bg-img/services/massage.jpeg" alt="" />
+                                    </div>
+                                    <div class="widget-post-content">
+                                        <a href="#">Timimgs</a>
+                                        <p>All Days 09.00AM to 05.00PM</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area">
+                            <div class="widget-title">
+                                <h6>Brochures</h6>
+                            </div>
+
+                            <div class="footer-newsletter-area">
+                                <form method="get" action="../img/brochure/brochure.pdf" target="_blank">
+                                    <label class="form-control">Panchami Brochure</label>
+                                    <button type="submit">Download</button>
+                                </form>
+                                <form method="get" action="../img/brochure/yoga.jpg" target="_blank">
+                                    <label class="form-control">Yoga Classes</label>
+                                    <button type="submit">Download</button>
+                                </form>
+                                <form method="get" action="../img/brochure/packages.jpg" target="_blank">
+                                    <label class="form-control">Treatment Packages</label>
+                                    <button type="submit">Download</button>
+                                </form>
+                                <form method="get" action="../img/brochure/services.pdf" target="_blank">
+                                    <label class="form-control">Baths, Services, Massages</label>
+                                    <button type="submit">Download</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area">
+                            <div class="widget-title">
+                                <h6>Services</h6>
+                            </div>
+                            <div class="footer-contact-form">
+                                <p>InPatient based Treatment</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
         <!-- Bottom Footer Area -->
         <div class="bottom-footer-area">
             <div class="container-fluid">
