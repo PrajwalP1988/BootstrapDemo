@@ -354,7 +354,7 @@
                                 <a class="nav-link" id="aa-tab" data-toggle="tab" href="#aa" role="tab" aria-controls="aa" aria-selected="false">Accupunture &amp; Accupressure</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="trataka-tab" data-toggle="tab" href="#trataka" role="tab" aria-controls="trataka" aria-selected="false">Trataka (Eye)</a>
+                                <a class="nav-link" id="trataka-tab" data-toggle="tab" href="#trataka" role="tab" aria-controls="trataka" aria-selected="false">Trataka (Eye Exercises)</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="various-tab" data-toggle="tab" href="#various" role="tab" aria-controls="various" aria-selected="false">Various packs &amp; Compresses</a>
@@ -371,7 +371,7 @@
                                 <div class="medilife-tab-content d-md-flex align-items-center">
                                     <!-- Medilife Tab Text  -->
                                     <div class="medilife-tab-text table-responsive">
-                                        <h3>Specific Treatment for an individual</h3>
+                                        <h3>Inpatient based Treatment</h3>
                                         <table class="table">
                                             <tr>
                                                 <td align="center"><button class="btn btn-danger">Description</button></td>
@@ -386,7 +386,7 @@
                                                 <td align="center"><button class="btn btn-primary">450 *</button></td>
                                             </tr>
                                             <tr>
-                                                <td><button class="btn btn-warning">Accompanying Person ( Acc. + Food)</button></td>
+                                                <td><button class="btn btn-warning">Accompanying Person <br />( Accomodation + Food)</button></td>
                                                 <td align="center"><button class="btn btn-primary">450 *</button></td>
                                             </tr>
                                             <tr>
@@ -402,6 +402,7 @@
                                     </div>
                                     <!-- Medilife Tab Img  -->
                                     <div class="medilife-tab-img">
+                                        <h3>Specific Treatment for an individual</h3>
                                         <button class="btn btn-dark">Yoga</button>
                                         <button class="btn btn-dark">Prayer, Pranayama, Meditation</button>
                                         <button class="btn btn-dark">Trataka (eye exercises)</button>
@@ -419,7 +420,7 @@
                                         <div class="row">
                                             <button class="btn btn-primary">Aroma Massage</button>
                                             <button class="btn btn-secondary">Back Body Massage + IR</button>
-                                            <button class="btn btn-success">Deep Tissue Massage + Steam Bath oh</button>
+                                            <button class="btn btn-success">Deep Tissue Massage + Steam Bath</button>
                                             <button class="btn btn-info">Full Body Massage</button>
                                             <button class="btn btn-warning">Ginger Massage + IR</button>
                                             <button class="btn btn-danger">Head Massage</button>
@@ -641,9 +642,9 @@
                                         <button class="btn btn-danger">Papaya</button><br />
                                         <button class="btn btn-warning">Full Body Scrub</button><br />
                                         <button class="btn btn-warning">Packs</button>
-                                        <button class="btn btn-danger">Dry</button>
-                                        <button class="btn btn-danger">Normal</button>
-                                        <button class="btn btn-danger">Oil</button>
+                                        <button class="btn btn-danger">Dry Skin</button>
+                                        <button class="btn btn-danger">Normal Skin</button>
+                                        <button class="btn btn-danger">Oil Skin</button>
                                     </div>
                                     <!-- Medilife Tab Img  -->
                                     <div class="medilife-tab-img">
@@ -950,7 +951,7 @@
                             <div class="post-author">
                                 <a href="#"><img src="" class="lazy" data-original="img/blog-img/care-icons/thyroid.jpg" alt=""></a>
                             </div>
-                            <a href="#" class="headline">Thyroid Related <br />Problemns</a>
+                            <a href="#" class="headline">Thyroid Related <br />Problems</a>
                         </div>
                     </div>
                 </div>
@@ -1490,7 +1491,7 @@
                                     </div>
                                     <div class="widget-post-content">
                                         <a href="#">Yoga Fitness Classes</a>
-                                        <p>Starts from Feb 18, 2019</p>
+                                        <p>Schedule</p>
                                         <a>EveryDay</a>
                                         <p>Batch-1 : 11.00AM to 12.00PM</p>
                                         <p>Batch-2 : 04.00PM to 05.00PM</p>
@@ -1517,19 +1518,23 @@
                             </div>
 
                             <div class="footer-newsletter-area">
-                                <form method="get" action="img/brochure/brochure.pdf" target="_blank">
+                                <form id="downloadBrochure" method="get" action="javascript:AlertBox();">
                                     <label class="form-control">Panchami Brochure</label>
                                     <button type="submit">Download</button>
                                 </form>
-                                <form method="get" action="img/brochure/yoga.jpg" target="_blank">
+                                <form method="get" action="img/brochure/Yoga_Classes-Panchami_Yoga_Nature_Cure_Centre.pdf" target="_blank">
                                     <label class="form-control">Yoga Classes</label>
                                     <button type="submit">Download</button>
                                 </form>
-                                <form method="get" action="img/brochure/packages.jpg" target="_blank">
+                                <form method="get" action="img/brochure/Products-Panchami_Yoga_Nature_Cure_Centre.pdf" target="_blank">
+                                    <label class="form-control">Products</label>
+                                    <button type="submit">Download</button>
+                                </form>
+                                <form method="get" action="img/brochure/Inpatient_based_package_treatment_Packages.pdf" target="_blank">
                                     <label class="form-control">Treatment Packages</label>
                                     <button type="submit">Download</button>
                                 </form>
-                                <form method="get" action="img/brochure/services.pdf" target="_blank">
+                                <form method="get" action="img/brochure/Services-Panchami_Yoga_Nature_Cure_Centre.pdf" target="_blank">
                                     <label class="form-control">Baths, Services, Massages</label>
                                     <button type="submit">Download</button>
                                 </form>
@@ -1584,10 +1589,47 @@
     <script src="js/active.js"></script>
     <!-- Elements js -->
     <script src="js/elements.js"></script>
+    <!-- BootBox js -->
+    <script src="js/bootbox.min.js"></script>
 
     <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 
     <script src="js/jquery.lazyload.min.js"></script>
+
+    <script type="text/javascript">
+        function AlertBox() {
+            bootbox.confirm({
+                message: "Choose Language :",
+                buttons: {
+                    confirm: {
+                        label: 'English',
+                        className: 'btn-success'
+                    },
+                    cancel: {
+                        label: 'Kannada',
+                        className: 'btn-danger'
+                    }
+                },
+                callback: function (result) {
+                    if(!result)
+                    {
+                        window.open('../img/brochure/Brochure(Kannada)_Panchami_Yoga_Nature_Cure_Centre.pdf', '_blank');
+                    }
+                    else {
+                        window.open('../img/brochure/Brochure(English)_Panchami_Yoga_Nature_Cure_Centre.pdf', '_blank');
+                    }
+                }
+            }).find('.modal-content').css({
+                'margin-top': function () {
+                    var w = $(window).height();
+                    var b = $(".modal-dialog").height();
+                    // should not be (w-h)/2
+                    var h = (w - b) / 2;
+                    return h + "px";
+                }
+            });
+        }
+    </script>
 
     <script type="text/javascript">
         $("img.lazy").lazyload();
