@@ -402,7 +402,7 @@
                                     </div>
                                     <!-- Medilife Tab Img  -->
                                     <div class="medilife-tab-img">
-                                        <h3>Specific Treatment for an individual</h3>
+                                        <button class="btn btn-dark">Specific Treatment for an individual</button>
                                         <button class="btn btn-dark">Yoga</button>
                                         <button class="btn btn-dark">Prayer, Pranayama, Meditation</button>
                                         <button class="btn btn-dark">Trataka (eye exercises)</button>
@@ -1518,24 +1518,28 @@
                             </div>
 
                             <div class="footer-newsletter-area">
-                                <form id="downloadBrochure" method="get" action="javascript:AlertBox();">
-                                    <label class="form-control">Panchami Brochure</label>
+                                <form method="get" action="img/brochure/Brochure(Kannada)_Panchami_Yoga_Nature_Cure_Centre.pdf" target="_blank">
+                                    <label class="form-control">Panchami Brochure - Kannada</label>
+                                    <button type="submit">Download</button>
+                                </form>
+                                <form method="get" action="img/brochure/Brochure(English)_Panchami_Yoga_Nature_Cure_Centre.pdf" target="_blank">
+                                    <label class="form-control">Panchami Brochure - English</label>
+                                    <button type="submit">Download</button>
+                                </form>
+                                <form method="get" action="img/brochure/Services-Panchami_Yoga_Nature_Cure_Centre.pdf" target="_blank">
+                                    <label class="form-control">Services</label>
+                                    <button type="submit">Download</button>
+                                </form>
+                                <form method="get" action="img/brochure/Inpatient_based_package_treatment_Packages.pdf" target="_blank">
+                                    <label class="form-control">Inpatient Treatment Packages</label>
                                     <button type="submit">Download</button>
                                 </form>
                                 <form method="get" action="img/brochure/Yoga_Classes-Panchami_Yoga_Nature_Cure_Centre.pdf" target="_blank">
-                                    <label class="form-control">Yoga Classes</label>
+                                    <label class="form-control">Yoga Fitness Classes</label>
                                     <button type="submit">Download</button>
                                 </form>
                                 <form method="get" action="img/brochure/Products-Panchami_Yoga_Nature_Cure_Centre.pdf" target="_blank">
                                     <label class="form-control">Products</label>
-                                    <button type="submit">Download</button>
-                                </form>
-                                <form method="get" action="img/brochure/Inpatient_based_package_treatment_Packages.pdf" target="_blank">
-                                    <label class="form-control">Treatment Packages</label>
-                                    <button type="submit">Download</button>
-                                </form>
-                                <form method="get" action="img/brochure/Services-Panchami_Yoga_Nature_Cure_Centre.pdf" target="_blank">
-                                    <label class="form-control">Baths, Services, Massages</label>
                                     <button type="submit">Download</button>
                                 </form>
                             </div>
@@ -1589,48 +1593,11 @@
     <script src="js/active.js"></script>
     <!-- Elements js -->
     <script src="js/elements.js"></script>
-    <!-- BootBox js -->
-    <script src="js/bootbox.min.js"></script>
 
     <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 
     <script src="js/jquery.lazyload.min.js"></script>
-
-    <script type="text/javascript">
-        function AlertBox() {
-            bootbox.confirm({
-                message: "Choose Language :",
-                buttons: {
-                    confirm: {
-                        label: 'English',
-                        className: 'btn-success'
-                    },
-                    cancel: {
-                        label: 'Kannada',
-                        className: 'btn-danger'
-                    }
-                },
-                callback: function (result) {
-                    if(!result)
-                    {
-                        window.open('../img/brochure/Brochure(Kannada)_Panchami_Yoga_Nature_Cure_Centre.pdf', '_blank');
-                    }
-                    else {
-                        window.open('../img/brochure/Brochure(English)_Panchami_Yoga_Nature_Cure_Centre.pdf', '_blank');
-                    }
-                }
-            }).find('.modal-content').css({
-                'margin-top': function () {
-                    var w = $(window).height();
-                    var b = $(".modal-dialog").height();
-                    // should not be (w-h)/2
-                    var h = (w - b) / 2;
-                    return h + "px";
-                }
-            });
-        }
-    </script>
-
+    
     <script type="text/javascript">
         $("img.lazy").lazyload();
     </script>
