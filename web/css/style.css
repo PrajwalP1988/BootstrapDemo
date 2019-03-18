@@ -1,9 +1,4 @@
-/*--Author: W3Layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
- --*/
-/*-- Reset Code --*/
+
 body { 
 	padding: 0;
 	margin: 0;
@@ -66,10 +61,10 @@ p {
 	-o-background-size:cover;
 	-ms-background-size:cover;
 }
-.w3_agile_logo{
+.agile_logo{
 	padding: 4em 0 0;
 }
-.w3_agile_logo h1 a{
+.agile_logo h1 a{
 	font-size: 1.5em;
 	letter-spacing: 6px;
 	color:#fff;
@@ -80,11 +75,11 @@ p {
 	font-family: 'Dancing Script', cursive;
 }
 /*-- banner --*/
-.banner_text_w3layouts {
+.banner_text {
     text-align: center;
-    padding: 16.5em 0;
+    padding: 10.5em 0;
 }
-.banner_text_w3layouts h3 {
+.banner_text h3 {
 	color: #fff;
 	font-size: 4em;
 	margin: 0;
@@ -92,14 +87,14 @@ p {
 	text-transform: capitalize;
 	letter-spacing: 2px;
 }
-.banner_text_w3layouts span {
+.banner_text span {
     width: 38%;
     height: 1px;
     background: rgba(255, 255, 255, 0.29);
     display: inline-block;
     margin: 1.5em 0 0.5em;
 }
-.banner_text_w3layouts p {
+.banner_text p {
 	color: #fff;
 	font-size: 1.3em;
 	margin: 0.5em;
@@ -811,7 +806,7 @@ a.agilebtn {
 }
 /*-- //section --*/
 /*-- team --*/  
-.team.agileits-w3layouts {
+.team.agileits {
     background: #fff;
 }
 .team-grid {
@@ -874,7 +869,7 @@ a.agilebtn {
 .contact-left-w3ls {
     padding: 0;
 }
-.contact-w3-agileits {
+.contact-agileits {
     background: #124042;
 }
 .contact-right-w3l h3:before {
@@ -1271,10 +1266,10 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	.contact-icon-wthree {
 		padding: 0;
 	}
-	.banner_text_w3layouts {
+	.banner_text {
         padding: 12.5em 0;
 	}
-	.banner_text_w3layouts h3 {
+	.banner_text h3 {
        font-size: 3.5em;
     }
 }
@@ -1282,7 +1277,7 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	.top-nav ul li a {
 		padding: 1.5em;
 	}
-	.banner_text_w3layouts h3 {
+	.banner_text h3 {
         font-size: 3.8em;
 	}	
 	.about_agileits {
@@ -1339,7 +1334,7 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	.w3layouts-section p {
 		width: 86%;
 	}
-	.banner_text_w3layouts h3 {
+	.banner_text h3 {
 		font-size: 3.3em;
 	}
 	
@@ -1393,13 +1388,13 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 }	
 
 @media screen and (max-width: 736px){
-	.w3_agile_logo {
+	.agile_logo {
 		padding: 2.5em 0 0;
 	}
-	.banner_text_w3layouts {
+	.banner_text {
 		padding: 10em 0;
 	}
-	.banner_text_w3layouts h3 {
+	.banner_text h3 {
 		font-size: 3em;
 	}
 	.img_text_w3ls h4 {
@@ -1425,7 +1420,7 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	}
 }
 @media screen and (max-width: 667px){
-	.banner_text_w3layouts {
+	.banner_text {
 		padding: 8em 0;
 	}
 	.about_agileits,.about_text_w3l,.img1, .img2, .img3, .img4, .img5, .img6,.team-grid,.grid-1,.contact-right-w3l,.contact-left-w3ls{
@@ -1491,13 +1486,13 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	}
 }
 @media screen and (max-width: 600px){
-	.banner_text_w3layouts h3 {
+	.banner_text h3 {
 		font-size: 2.8em;
 	}
-	.w3_agile_logo {
+	.agile_logo {
 		padding: 3em 0 0;
 	}
-	.banner_text_w3layouts {
+	.banner_text {
 		padding: 4em 0;
 	}
 	.team-grid.t3 {
@@ -1530,16 +1525,16 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	}
 }
 @media screen and (max-width: 568px){
-	.banner_text_w3layouts h3 {
+	.banner_text h3 {
 		font-size: 2.5em;
 	}
-	.banner_text_w3layouts {
+	.banner_text {
 		padding: 3.2em 0;
 	}
 	.subscribe-wthree {
 		width: 77%;
 	}
-	.banner_text_w3layouts span {
+	.banner_text span {
 		margin: 1.5em 0 0.3em;
 	}
 	.grid-1 .w3agile-text h5 {
@@ -1553,11 +1548,11 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	}
 }
 @media screen and (max-width: 480px){
-	.banner_text_w3layouts h3 {
+	.banner_text h3 {
 		font-size: 2.1em;
 		letter-spacing:1px;
 	}	
-	.banner_text_w3layouts p {
+	.banner_text p {
 		font-size: 1.1em;
 	}
     .contact-right-w3l {
@@ -1610,10 +1605,10 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	}	
 }
 @media screen and (max-width: 384px){
-	.w3_agile_logo h1 a {
+	.agile_logo h1 a {
 		font-size: 1.4em;
 	}
-	.banner_text_w3layouts h3 {
+	.banner_text h3 {
 		font-size: 2em;
 	}
 	.grid_w3,.grid-c.grid_w3l {
@@ -1648,7 +1643,7 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	}
 }
 @media screen and (max-width: 320px){
-	.banner_text_w3layouts h3 {
+	.banner_text h3 {
 		font-size: 1.5em;
 	}
 	.grid-1 .w3agile-text h5 {
