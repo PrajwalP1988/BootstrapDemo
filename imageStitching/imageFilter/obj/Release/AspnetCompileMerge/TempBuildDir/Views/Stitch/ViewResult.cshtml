@@ -1,0 +1,87 @@
+﻿
+<html>
+<head>
+    @{
+        ViewBag.Title = "Stitch";
+    }
+
+</head>
+<body>
+    <div>
+        <div id="uploadLoader" class="loader">
+            <p class="loadinggif">
+                Loading, please wait...<img id="searchLoader" />
+            </p>
+        </div>
+    </div>
+
+    <h2></h2>
+    @using (Html.BeginForm("ViewResult", "Stitch", FormMethod.Post, new
+    {
+        id = "ImgForm",
+        name = "ImgForm",
+        target = "UploadTarget"
+    }))
+    {<fieldset>
+            <table>
+                <tr>
+                    <td>
+                        <input type="button" id="btnSubmit" name="btnSubmit" value="Run Process" class="btn btn-success" onclick="UploadImage()" />
+                        <input id="guid_" name="guid_" value="@ViewBag.guid_" />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    }
+
+    <div id="statusResult">
+        <p class="badge success">Success</p>
+    </div>
+
+    @Html.ActionLink("Home", "UploadFile", "UploadFiles");
+
+    <div id="viewImage">
+        @Html.ActionLink("View Image", "ViewResult", "Stitch");
+    </div>
+
+    <div>
+        <div id="uploadsContainer"></div>
+        <iframe id="UploadTarget" name="UploadTarget" onload="UploadImage_Complete()" style="position: absolute; left: -999em; top: -999em;"></iframe>
+    </div>
+
+    @if (ViewBag?.ImagePath != null)
+    {
+        var img = new FileInfo(ViewBag.ImagePath);
+
+        <a href="@Url.Content(String.Format("~/images/{0}", img.Name))">Download</a>
+        <div class="viewImageResult">
+            <img src="@Url.Content(String.Format("~/images/{0}", img.Name))" width="1920" height="1080" />
+        </div>
+    }
+</body>
+</html>
+
+<script type="text/javascript">
+    var isFirstLoad = true;
+
+    window.onload = function () {
+        document.getElementById('statusResult').style.display = 'none';
+        document.getElementById('viewImage').style.display = 'none';
+    };
+
+    function UploadImage() {
+        $('#uploadLoader').show();
+        $("#ImgForm").submit(); // post form
+    }
+
+    function UploadImage_Complete() {
+        //Check to see if this is the first load of the iFrame
+        if (isFirstLoad == true) {
+            isFirstLoad = false;
+        }
+        document.getElementById('statusResult').style.display = 'block';
+        document.getElementById('viewImage').style.display = 'block';
+        $('#uploadLoader').hide();
+    }
+
+</script>

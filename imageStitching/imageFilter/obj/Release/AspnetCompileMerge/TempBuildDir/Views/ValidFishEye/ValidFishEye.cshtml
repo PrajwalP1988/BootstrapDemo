@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewBag.Title = "ValidFishEye";
+}
+
+<h2>ValidFishEye</h2>
+
+    <input type="file" name="file" id="file" multiple onchange="javascript:updateList()" />
+    <br />Selected files:
+    <div id="fileList"></div>
+    <input id="file-input" type="file" />
+
+    <script src="~/Scripts/exif.js"></script>
+
+    <script type="text/javascript">
+
+        document.getElementById("file-input").onchange = function (e) {
+            var file = e.target.files[0]
+            if (file && file.name) {
+                EXIF.getData(file, function () {
+                    alert(file.name);
+                    var exifData = EXIF.pretty(this);
+                    if (exifData) {
+                        alert(exifData);
+                    } else {
+                        alert("No EXIF data found in image '" + file.name + "'.");
+                    }
+                });
+            }
+        }
+
+        updateList = function () {
+            var input = document.getElementById('file');
+            var output = document.getElementById('fileList');
+
+            output.innerHTML = '<ul>';
+            for (var i = 0; i < input.files.length; ++i) {
+                var file = input.files[0]
+                if (file && file.name) {
+                    EXIF.getData(file, function () {
+                        var exifData = EXIF.getTag(this, "Make");
+                        if (exifData) {
+                            alert(exifData);
+                        } else {
+                            alert("No EXIF data found in image '" + file.name + "'.");
+                        }
+                    });
+                }
+                output.innerHTML += '<li>' + input.files.item(i).name + " , LensID : " + "" + '</li>';
+            }
+            output.innerHTML += '</ul>';
+        }
+    </script>

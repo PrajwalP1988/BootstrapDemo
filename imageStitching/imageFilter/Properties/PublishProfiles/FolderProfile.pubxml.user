@@ -1,0 +1,1360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Projects\imageFilter\imageFilter\bin\Release\Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AForge.dll">
+      <publishTime>07/17/2013 23:15:16</publishTime>
+    </File>
+    <File Include="bin/AForge.Imaging.dll">
+      <publishTime>07/17/2013 23:19:04</publishTime>
+    </File>
+    <File Include="bin/AForge.Math.dll">
+      <publishTime>07/17/2013 23:17:04</publishTime>
+    </File>
+    <File Include="bin/AForge.Vision.dll">
+      <publishTime>07/17/2013 23:21:34</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>02/19/2019 17:37:54</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>02/19/2019 17:37:54</publishTime>
+    </File>
+    <File Include="bin/imageFilter.dll">
+      <publishTime>02/19/2019 17:37:48</publishTime>
+    </File>
+    <File Include="bin/imageFilter.pdb">
+      <publishTime>02/19/2019 17:37:48</publishTime>
+    </File>
+    <File Include="bin/MetadataExtractor.dll">
+      <publishTime>06/20/2017 11:08:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.TelemetryCorrelation.dll">
+      <publishTime>06/28/2017 15:05:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/18/2018 09:44:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>07/19/2017 10:01:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/01/2018 12:16:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/01/2018 12:16:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 13:57:34</publishTime>
+    </File>
+    <File Include="bin/XmpCore.dll">
+      <publishTime>03/16/2017 14:21:38</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>12/27/2018 11:04:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>12/27/2018 11:04:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>12/27/2018 11:04:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>12/27/2018 11:04:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>12/27/2018 11:04:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>12/27/2018 11:04:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>02/08/2019 18:21:51</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>12/27/2018 11:04:26</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>12/27/2018 11:04:12</publishTime>
+    </File>
+    <File Include="Content/styles.css">
+      <publishTime>02/19/2019 17:37:33</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>12/27/2018 11:04:12</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>12/27/2018 11:04:26</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>12/27/2018 11:04:26</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>12/27/2018 11:04:26</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>12/27/2018 11:04:26</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>12/27/2018 11:04:26</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/27/2018 11:04:12</publishTime>
+    </File>
+    <File Include="Hugin/bin/align_image_stack.exe">
+      <publishTime>01/10/2019 14:39:09</publishTime>
+    </File>
+    <File Include="Hugin/bin/autooptimiser.exe">
+      <publishTime>01/10/2019 14:39:09</publishTime>
+    </File>
+    <File Include="Hugin/bin/calibrate_lens_gui.exe">
+      <publishTime>01/10/2019 14:39:09</publishTime>
+    </File>
+    <File Include="Hugin/bin/celeste.dll">
+      <publishTime>01/10/2019 14:39:09</publishTime>
+    </File>
+    <File Include="Hugin/bin/celeste_standalone.exe">
+      <publishTime>01/10/2019 14:39:09</publishTime>
+    </File>
+    <File Include="Hugin/bin/checkpto.exe">
+      <publishTime>01/10/2019 14:39:09</publishTime>
+    </File>
+    <File Include="Hugin/bin/cpclean.exe">
+      <publishTime>01/10/2019 14:39:09</publishTime>
+    </File>
+    <File Include="Hugin/bin/cpfind.exe">
+      <publishTime>01/10/2019 14:39:09</publishTime>
+    </File>
+    <File Include="Hugin/bin/deghosting_mask.exe">
+      <publishTime>01/10/2019 14:39:09</publishTime>
+    </File>
+    <File Include="Hugin/bin/enblend.exe">
+      <publishTime>01/10/2019 14:39:09</publishTime>
+    </File>
+    <File Include="Hugin/bin/enfuse.exe">
+      <publishTime>01/10/2019 14:39:09</publishTime>
+    </File>
+    <File Include="Hugin/bin/exiftool.exe">
+      <publishTime>01/10/2019 14:39:09</publishTime>
+    </File>
+    <File Include="Hugin/bin/exiv2.dll">
+      <publishTime>01/10/2019 14:39:09</publishTime>
+    </File>
+    <File Include="Hugin/bin/expat.dll">
+      <publishTime>01/10/2019 14:39:09</publishTime>
+    </File>
+    <File Include="Hugin/bin/fulla.exe">
+      <publishTime>01/10/2019 14:39:09</publishTime>
+    </File>
+    <File Include="Hugin/bin/geocpset.exe">
+      <publishTime>01/10/2019 14:39:09</publishTime>
+    </File>
+    <File Include="Hugin/bin/glew32.dll">
+      <publishTime>01/10/2019 14:39:09</publishTime>
+    </File>
+    <File Include="Hugin/bin/Half.dll">
+      <publishTime>01/10/2019 14:39:09</publishTime>
+    </File>
+    <File Include="Hugin/bin/hugin.exe">
+      <publishTime>01/10/2019 14:39:09</publishTime>
+    </File>
+    <File Include="Hugin/bin/huginbase.dll">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/huginbasewx.dll">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/hugin_executor.exe">
+      <publishTime>01/10/2019 14:39:09</publishTime>
+    </File>
+    <File Include="Hugin/bin/hugin_hdrmerge.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/hugin_lensdb.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/hugin_stacker.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/hugin_stitch_project.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/icpfind.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/icpfindlib.dll">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/Iex-2_2.dll">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/IexMath-2_2.dll">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/IlmImf-2_2.dll">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/IlmImfUtil-2_2.dll">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/IlmThread-2_2.dll">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/Imath-2_2.dll">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/jpeg62.dll">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/lcms2.dll">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/libfftw-3.3.dll">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/libpng16.dll">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/linefind.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/localfeatures.dll">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/nona.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/pano13.dll">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/panoinfo.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/pano_modify.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/pano_trafo.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/PTBatcherGUI.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/PTblender.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/PTcrop.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/PTinfo.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/PTmasker.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/PTmender.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/PToptimizer.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/pto_gen.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/pto_lensstack.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/pto_mask.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/pto_merge.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/pto_move.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/pto_template.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/pto_var.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/PTroller.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/PTtiff2psd.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/PTtiffdump.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/PTuncrop.exe">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/smartblend-hugin.bat">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/sqlite3.dll">
+      <publishTime>01/10/2019 14:39:10</publishTime>
+    </File>
+    <File Include="Hugin/bin/tca_correct.exe">
+      <publishTime>01/10/2019 14:39:11</publishTime>
+    </File>
+    <File Include="Hugin/bin/tiff.dll">
+      <publishTime>01/10/2019 14:39:11</publishTime>
+    </File>
+    <File Include="Hugin/bin/verdandi.exe">
+      <publishTime>01/10/2019 14:39:11</publishTime>
+    </File>
+    <File Include="Hugin/bin/vigraimpex.dll">
+      <publishTime>01/10/2019 14:39:11</publishTime>
+    </File>
+    <File Include="Hugin/bin/vig_optimize.exe">
+      <publishTime>01/10/2019 14:39:11</publishTime>
+    </File>
+    <File Include="Hugin/bin/wxbase311u_vc_custom.dll">
+      <publishTime>01/10/2019 14:39:11</publishTime>
+    </File>
+    <File Include="Hugin/bin/wxbase311u_xml_vc_custom.dll">
+      <publishTime>01/10/2019 14:39:11</publishTime>
+    </File>
+    <File Include="Hugin/bin/wxmsw311u_adv_vc_custom.dll">
+      <publishTime>01/10/2019 14:39:11</publishTime>
+    </File>
+    <File Include="Hugin/bin/wxmsw311u_aui_vc_custom.dll">
+      <publishTime>01/10/2019 14:39:11</publishTime>
+    </File>
+    <File Include="Hugin/bin/wxmsw311u_core_vc_custom.dll">
+      <publishTime>01/10/2019 14:39:11</publishTime>
+    </File>
+    <File Include="Hugin/bin/wxmsw311u_gl_vc_custom.dll">
+      <publishTime>01/10/2019 14:39:11</publishTime>
+    </File>
+    <File Include="Hugin/bin/wxmsw311u_html_vc_custom.dll">
+      <publishTime>01/10/2019 14:39:11</publishTime>
+    </File>
+    <File Include="Hugin/bin/wxmsw311u_qa_vc_custom.dll">
+      <publishTime>01/10/2019 14:39:11</publishTime>
+    </File>
+    <File Include="Hugin/bin/wxmsw311u_xrc_vc_custom.dll">
+      <publishTime>01/10/2019 14:39:11</publishTime>
+    </File>
+    <File Include="Hugin/bin/zlib.dll">
+      <publishTime>01/10/2019 14:39:11</publishTime>
+    </File>
+    <File Include="Hugin/doc/assistant_file_format.txt">
+      <publishTime>01/10/2019 14:39:46</publishTime>
+    </File>
+    <File Include="Hugin/doc/enblend/enblend.pdf">
+      <publishTime>01/10/2019 14:40:14</publishTime>
+    </File>
+    <File Include="Hugin/doc/enblend/enfuse.pdf">
+      <publishTime>01/10/2019 14:40:14</publishTime>
+    </File>
+    <File Include="Hugin/doc/executor_file_format.txt">
+      <publishTime>01/10/2019 14:39:46</publishTime>
+    </File>
+    <File Include="Hugin/doc/fulla.html">
+      <publishTime>01/10/2019 14:39:46</publishTime>
+    </File>
+    <File Include="Hugin/doc/hugin/AUTHORS">
+      <publishTime>01/10/2019 14:40:21</publishTime>
+    </File>
+    <File Include="Hugin/doc/hugin/COPYING.txt">
+      <publishTime>01/10/2019 14:40:21</publishTime>
+    </File>
+    <File Include="Hugin/doc/nona.txt">
+      <publishTime>01/10/2019 14:39:46</publishTime>
+    </File>
+    <File Include="Hugin/doc/panotools/AUTHORS">
+      <publishTime>01/10/2019 14:40:21</publishTime>
+    </File>
+    <File Include="Hugin/doc/panotools/COPYING">
+      <publishTime>01/10/2019 14:40:21</publishTime>
+    </File>
+    <File Include="Hugin/doc/panotools/Optimize.txt">
+      <publishTime>01/10/2019 14:40:21</publishTime>
+    </File>
+    <File Include="Hugin/doc/panotools/PTblender.readme">
+      <publishTime>01/10/2019 14:40:21</publishTime>
+    </File>
+    <File Include="Hugin/doc/panotools/PTmender.readme">
+      <publishTime>01/10/2019 14:40:21</publishTime>
+    </File>
+    <File Include="Hugin/doc/panotools/README">
+      <publishTime>01/10/2019 14:40:21</publishTime>
+    </File>
+    <File Include="Hugin/doc/panotools/stitch.txt">
+      <publishTime>01/10/2019 14:40:21</publishTime>
+    </File>
+    <File Include="Hugin/doc/smartblend-hugin-windows-readme.txt">
+      <publishTime>01/10/2019 14:39:46</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/data/blended_stacks.executor">
+      <publishTime>01/10/2019 14:40:33</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/data/celeste.model">
+      <publishTime>01/10/2019 14:40:33</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/data/default.setting">
+      <publishTime>01/10/2019 14:40:33</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/data/duallens.assistant">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/data/expressions.ini">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/data/fused_layers.executor">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/data/hdr_pano.executor">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/data/hugin_exiftool_copy.arg">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/data/hugin_exiftool_final_example.arg">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/data/median_stack.executor">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/data/multirow.assistant">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/data/normal.assistant">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/data/normal_enblend.executor">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/data/normal_enblend_cubic.executor">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/data/normal_layered_tiff.executor">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/data/normal_smartblend.executor">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/data/scanned.assistant">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/data/scanned2.assistant">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/data/stacked.assistant">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/data/zeronoise.executor">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/about.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/batch_frame.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/batch_menu.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/batch_toolbar.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/cpdetector_dialog.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/cp_editor_panel.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/cp_list_frame.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/about.htm">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/add_project.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/add_projects.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/autocrop_tool.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/center_pano.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/COPYING.txt">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/crop_tool.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/crop_tool_small.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/cursor_cp_pick.cur">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/dedication.htm">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/drag_tool.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/drag_tool_small.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/druid.control.128.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/druid.images.128.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/druid.lenses.128.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/druid.optimize.128.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/druid.stitch.128.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/edit_add.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/filenew.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/fileopen.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/filesave.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/filesaveas.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/fit_pano.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/gl_preview.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/gl_preview_small.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/hugin.ico">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/hugin.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/hugin_help_en_EN.chm">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/hugin_small.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/identify_tool.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/identify_tool_small.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/info.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/intro.htm">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/keyboard_pl.html">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/list.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/logo.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/optimize.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/output_blended_fused.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/output_fused_blended.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/output_hdr.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/output_normal.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/pause.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/photometric.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/preview.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/preview_auto_update.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/preview_control_point_tool.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/preview_control_point_tool_small.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/preview_layout.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/preview_layout_small.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/preview_num_transform.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/preview_show_all.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/preview_show_none.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/preview_white_balance.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/preview_white_balance_small.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/ptbatcher.ico">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/ptbatcher.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/ptbatcher_pause.ico">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/ptbatcher_pause.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/ptbatcher_running.ico">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/ptbatcher_running.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/pto_icon.ico">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/pto_icon.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/redo.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/reload.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/remove_project.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/skip.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/splash.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/sponsors.htm">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/start.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/stop.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/straighten_pano.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/tips.txt">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/transparent.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/undo.png">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/data/upstream.txt">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/dlg_warning.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/edit_script_dialog.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/images_panel.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/image_variable_dlg.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/lenscal_frame.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/lensdb_dialogs.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/main_frame.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/main_menu.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/main_tool.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/mask_editor_panel.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/optimize_panel.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/optimize_photo_panel.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/pano_panel.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/pref_dialog.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/preview_frame.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/hugin/xrc/reset_dialog.xrc">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/ca_ES%40valencia/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/ca_ES/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/cs_CZ/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/da/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/de/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/en_GB/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/es/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:34</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/eu/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:35</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/fi/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:35</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/fr/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:35</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/hu/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:35</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/it/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:35</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/ja/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:35</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/nl/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:35</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/pl/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:35</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/pt_BR/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:35</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/ro/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:35</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/ru/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:35</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/sk/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:35</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/sv/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:35</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/zh_CN/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:35</publishTime>
+    </File>
+    <File Include="Hugin/share/locale/zh_TW/LC_MESSAGES/hugin.mo">
+      <publishTime>01/10/2019 14:40:35</publishTime>
+    </File>
+    <File Include="imagesnew/404.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/add-admin-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/add-new-case-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/add-role-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/audio-img.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/badge.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/case-id.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/case-name.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/checked.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/comment-blank.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/comment-profile.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/comments.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/complexity.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/date.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/delete.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/details.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/digital-map.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/double-angle-pointing-to-right.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/double-left-chevron.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/down-arrow.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/download.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/dropdown.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/email-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/error.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/evi-img.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/expand-red.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/fish-img.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/giffinal.gif">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/google-maps.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/help.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/home-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/hugin.png">
+      <publishTime>02/08/2019 17:36:42</publishTime>
+    </File>
+    <File Include="imagesnew/inner-page-bg.jpg">
+      <publishTime>02/08/2019 15:32:56</publishTime>
+    </File>
+    <File Include="imagesnew/loader.gif">
+      <publishTime>02/12/2019 15:54:53</publishTime>
+    </File>
+    <File Include="imagesnew/loaderfinal.gif">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/logo-bg.png">
+      <publishTime>02/08/2019 15:24:15</publishTime>
+    </File>
+    <File Include="imagesnew/logo-inner.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/logo-innerNew.png">
+      <publishTime>02/08/2019 16:46:42</publishTime>
+    </File>
+    <File Include="imagesnew/logo.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/logout-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/manage-cases-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/manage-roles-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/manage-team-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/manage-users-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/manage-users-menu-icon.png">
+      <publishTime>02/08/2019 15:01:01</publishTime>
+    </File>
+    <File Include="imagesnew/maximize.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/menu.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/menubar.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/military-number-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/minimize.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/minus.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/mobilelogo.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/moreoption.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/name-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/no-image-available.jpg">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/no-image-available.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/no-preview.jpg">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/normal-map.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/password-error.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/password-success.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/pdf-img.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/phone-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/plus.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/police-rank-bg.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/police-station-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/police-stations-bg-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/police-stations-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/preview.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/profile-pic.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/rank-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/rank-master-bg-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/rank-master-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/raw-data.jpg">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/raw-data.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/reply.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/reporting-hq-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/role-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/search.png">
+      <publishTime>02/08/2019 16:47:58</publishTime>
+    </File>
+    <File Include="imagesnew/searchbar1.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/searchicon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/sidenav4.jpg">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/ski-img.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/sort-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/statistics-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/team-lead.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/team-member.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/team-name.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/thin-arrowheads-pointing-down.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/up-arrow.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/url.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/user-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/video-image.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/video-img.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/view-cases-icon - Copy.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/view-cases-icon-white.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/view-cases-icon.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="imagesnew/wrong.png">
+      <publishTime>11/19/2018 19:39:13</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>02/19/2019 17:37:50</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>12/27/2018 11:04:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>12/27/2018 11:04:26</publishTime>
+    </File>
+    <File Include="Scripts/exif.js">
+      <publishTime>01/21/2019 10:03:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.js">
+      <publishTime>12/27/2018 11:04:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.js">
+      <publishTime>12/27/2018 11:04:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.map">
+      <publishTime>12/27/2018 11:04:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.js">
+      <publishTime>12/27/2018 11:04:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.js">
+      <publishTime>12/27/2018 11:04:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.map">
+      <publishTime>12/27/2018 11:04:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>12/27/2018 11:04:35</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>12/27/2018 11:04:35</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>12/27/2018 11:04:35</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>12/27/2018 11:04:35</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>12/27/2018 11:04:34</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>12/27/2018 11:04:12</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>12/27/2018 11:04:12</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>12/27/2018 11:04:12</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>12/27/2018 11:04:12</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>02/12/2019 11:03:58</publishTime>
+    </File>
+    <File Include="Views/Shared/_UploadsPartial.cshtml">
+      <publishTime>02/12/2019 16:33:11</publishTime>
+    </File>
+    <File Include="Views/Stitch/ViewResult.cshtml">
+      <publishTime>02/19/2019 17:36:42</publishTime>
+    </File>
+    <File Include="Views/Upload/UploadFile.cshtml">
+      <publishTime>01/17/2019 12:11:16</publishTime>
+    </File>
+    <File Include="Views/UploadFiles/UploadFile.cshtml">
+      <publishTime>02/12/2019 15:41:11</publishTime>
+    </File>
+    <File Include="Views/ValidFishEye/ValidFishEye.cshtml">
+      <publishTime>01/29/2019 14:40:46</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>12/27/2018 11:04:12</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>02/11/2019 09:50:26</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/12/2019 10:11:45</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

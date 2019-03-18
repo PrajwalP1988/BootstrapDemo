@@ -1,0 +1,148 @@
+﻿@model imageFilter.Models.FileModel
+@{
+    ViewBag.Title = "iMAGENEmiss";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="~/Content/styles.css" rel="stylesheet" type="text/css" />
+
+<div>
+    <div id="uploadLoader" class="loader">
+        <p class="loadinggif">
+            Loading, please wait...<img id="searchLoader" />
+        </p>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="row">
+        <h2>Upload images to stitch any series of overlapping pictures</h2>
+        <h5>With iMAGENEmiss you can assemble mosaic of photographs into a complete immersive panorama.</h5>
+    </div>
+
+    <div class="row">
+
+        <div class="col-lg-6">
+            <div class="card">
+                <img src="~/imagesnew/hugin.png" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Steps to Achieve :</h4>
+                    <h5 class="card-text">1. Select "Choose Files" Button to browse multiple Image files.</h5>
+                    <h5 class="card-text">2. With the files choosen Click "Upload" Button.</h5>
+                    <h5 class="card-text">3. Verify the files uploaded and Select "Proceed" Button.</h5>
+                    <h5 class="card-text">4. With the unique GUID generated for Transaction, Click "Run Process" Button.</h5>
+                </div>
+            </div>
+            <br>
+
+            @*<span id="uploadLoader" style="display: none;">
+                    <img id="searchLoader" src="@Url.Content("~/imagesNew/loader.gif")" /> Uploading Please Wait
+                </span>*@
+
+            <div class="formFile">
+                @using (Html.BeginForm("UploadFile", "UploadFiles", FormMethod.Post, new
+                {
+                    enctype = "multipart/form-data",
+                    id = "ImgForm",
+                    name = "ImgForm",
+                    target = "UploadTarget"
+                }))
+                {
+                    @Html.Hidden("ID", 65512)
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-horizontal">
+                        <hr />
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.files, htmlAttributes: new { @class = "control-label col-md-4" })
+                            <div class="alignleft col-md-8">
+                                @Html.TextBoxFor(model => model.files, "", new { @type = "file", @multiple = "multiple", @accept = "image/x-png,image/gif,image/jpeg" })
+                                @Html.ValidationMessageFor(model => model.files, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-4 col-md-12">
+                                <input id="Upload" type="button" value="Upload" disabled="disabled" name="Upload" class="btn btn-danger" onclick="UploadImage()" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10 text-success">
+                                @ViewBag.UploadStatus
+                            </div>
+                        </div>
+
+                    </div>
+
+                }
+            </div>
+
+        </div>
+
+
+        <div class="col-lg-4">
+            <div>
+                <div id="uploadsContainer"></div>
+                <iframe id="UploadTarget" name="UploadTarget" onload="UploadImage_Complete()" style="position: absolute; left: -999em; top: -999em;"></iframe>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+<script type="text/javascript">
+    var isFirstLoad = true;
+
+    var files = document.getElementById('files');
+    var submit = document.getElementById('Upload');
+    files.addEventListener("change", function () {
+        if (files.files.length > 0) {
+            submit.disabled = false;
+            return;
+        }
+        submit.disabled = true;
+    });
+
+    function UploadImage() {
+        // check for size of file not greater than 1MB
+
+        // on form post showing Busy Indicator
+        $('#uploadLoader').show();
+        $("#ImgForm").submit(); // post form
+        console.log(iSize + "Mb");
+        // check for no file selected for upload
+        //else {
+        //    $('span#validityMessages').html("Please select a File of size less than 4MB!");
+        //    return;
+        //}
+    }
+
+    function UploadImage_Complete() {
+        //Check to see if this is the first load of the iFrame
+        if (isFirstLoad == true) {
+            isFirstLoad = false;
+        }
+        $('#uploadLoader').hide();
+        //Reset the image form so the file won't get uploaded again
+        document.getElementById("ImgForm").reset();
+        // this call will get uploads if any exists on server against this id and after successfull upload refreshing partial view to get the latest uploads
+        GetFiles();
+    }
+
+    function GetFiles() {
+        var url = '@Url.Action("GetFiles","UploadFiles")';
+        var Id = $('input#ID').val();
+        url = url + "?id=" + Id
+        $.get(url, function (response) {
+            $('#uploadsContainer').html(response);
+        });
+    }
+
+</script>
