@@ -1,0 +1,14 @@
+D:\Projects\fileTransfer\fileTransferService\bin\Debug\netcoreapp2.1\fileTransferService.deps.json
+D:\Projects\fileTransfer\fileTransferService\bin\Debug\netcoreapp2.1\fileTransferService.runtimeconfig.json
+D:\Projects\fileTransfer\fileTransferService\bin\Debug\netcoreapp2.1\fileTransferService.runtimeconfig.dev.json
+D:\Projects\fileTransfer\fileTransferService\bin\Debug\netcoreapp2.1\fileTransferService.dll
+D:\Projects\fileTransfer\fileTransferService\bin\Debug\netcoreapp2.1\fileTransferService.pdb
+D:\Projects\fileTransfer\fileTransferService\obj\Debug\netcoreapp2.1\fileTransferService.csproj.CoreCompileInputs.cache
+D:\Projects\fileTransfer\fileTransferService\obj\Debug\netcoreapp2.1\fileTransferService.RazorAssemblyInfo.cache
+D:\Projects\fileTransfer\fileTransferService\obj\Debug\netcoreapp2.1\fileTransferService.RazorAssemblyInfo.cs
+D:\Projects\fileTransfer\fileTransferService\obj\Debug\netcoreapp2.1\fileTransferService.AssemblyInfoInputs.cache
+D:\Projects\fileTransfer\fileTransferService\obj\Debug\netcoreapp2.1\fileTransferService.AssemblyInfo.cs
+D:\Projects\fileTransfer\fileTransferService\obj\Debug\netcoreapp2.1\fileTransferService.RazorTargetAssemblyInfo.cache
+D:\Projects\fileTransfer\fileTransferService\obj\Debug\netcoreapp2.1\fileTransferService.dll
+D:\Projects\fileTransfer\fileTransferService\obj\Debug\netcoreapp2.1\fileTransferService.pdb
+D:\Projects\fileTransfer\fileTransferService\obj\Debug\netcoreapp2.1\fileTransferService.csprojAssemblyReference.cache

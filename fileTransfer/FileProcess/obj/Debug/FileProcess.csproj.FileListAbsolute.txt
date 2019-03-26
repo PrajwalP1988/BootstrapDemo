@@ -1,0 +1,5 @@
+D:\Projects\fileTransfer\FileProcess\bin\Debug\FileProcess.dll
+D:\Projects\fileTransfer\FileProcess\bin\Debug\FileProcess.pdb
+D:\Projects\fileTransfer\FileProcess\obj\Debug\FileProcess.csproj.CoreCompileInputs.cache
+D:\Projects\fileTransfer\FileProcess\obj\Debug\FileProcess.dll
+D:\Projects\fileTransfer\FileProcess\obj\Debug\FileProcess.pdb
