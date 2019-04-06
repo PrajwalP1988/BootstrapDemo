@@ -1668,6 +1668,9 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	.banner_text p {
 		font-size: 1.1em;
 	}
+    .agile_logo h1 a img {
+        width: 80%;
+	}
     .contact-right-l {
 		padding: 2em 3em;
 	}	
@@ -1755,8 +1758,8 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 		padding: 7.31em 0;
 	}
 }
-@media screen and (max-width: 320px){
-	.banner_text h3 {
+@media screen and (max-width: 320px){	
+    .banner_text h3 {
 		font-size: 1.5em;
 	}
 	.grid-1 .agile-text h5 {
