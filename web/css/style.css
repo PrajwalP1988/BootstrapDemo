@@ -40,6 +40,9 @@ ul {
 label {
 	margin: 0;
 }
+.hide-text {
+    visibility:hidden;
+}
 .text-center {
 	text-align: center;
 }
