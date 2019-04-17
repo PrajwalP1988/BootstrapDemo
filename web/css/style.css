@@ -1664,6 +1664,10 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	}
 }
 @media screen and (max-width: 480px){
+    .agileits_main video {
+
+    }
+
 	.banner_text h3 {
 		font-size: 2.1em;
 		letter-spacing:1px;
