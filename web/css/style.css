@@ -434,7 +434,7 @@ span.menu {
 .grid_l img {
 	width:100%;
 }
-.img1,.img2,.img3,.img4,.img5,.img6{
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8{
 	padding:0;
 	background-size: cover !important;
 }
@@ -456,6 +456,12 @@ span.menu {
 .img6 {
 	background: url(../images/7.jpg) center;
 }
+.img7 {
+	background: url(../images/8.jpg) center;
+}
+.img8 {
+	background: url(../images/9.jpg) center;
+}
 .img_text_ls {
     padding: 9.15em 0;
 	transition: 0.5s all;
@@ -465,13 +471,13 @@ span.menu {
 	-ms-transition: 0.5s all;
 	background: rgba(78, 54, 54, 0.85);
 }
-.img5 .img_text_ls,.img1 .img_text_ls{
+.img5 .img_text_ls,.img1 .img_text_ls,.img7 .img_text_ls{
 	background:rgba(40, 141, 145, 0.69);
 }
 .img2 .img_text_ls,.img3 .img_text_ls,.img6 .img_text_ls{
 	background: rgba(0, 51, 102, 0.6);
 }
-.img4 .img_text_ls{
+.img4 .img_text_ls, .img8 .img_text_ls{
 	background:rgba(51, 102, 153, 0.6)
 }
 .img_text_ls h4 {
@@ -1665,7 +1671,7 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 }
 @media screen and (max-width: 480px){
     .agileits_main video {
-
+        width: 480px;
     }
 
 	.banner_text h3 {
