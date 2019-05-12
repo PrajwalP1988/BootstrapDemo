@@ -519,6 +519,9 @@ span.menu {
 .about_agileinfo,.gallery_wthree ,.team,.subscribe,.layouts-section {
 	padding:5em 0;
 }
+.beingMahout {
+	padding:8em 0;
+}
 h3.title {
     font-size: 2.6em;
     text-transform: capitalize;
@@ -1081,6 +1084,52 @@ a.agilebtn {
    color:#fff;
 }
 /*-- //contact --*/
+
+.beingMahout {
+    background: url(../images/21.jpg) center;
+    background-size: cover;
+	background-attachment: fixed;
+}
+
+.beingMahout-wthree input[type="email"] {
+	width: 69.3%;
+	padding: .8em 1em;
+	font-size: 1em;
+	font-weight: 400;
+	border: none;
+	outline: none;
+	margin: 0;
+	-webkit-appearance: none;
+	background: #fff;
+	color:#000;
+}	
+.beingMahout-wthree input[type="submit"]{
+	background: #e8870b;
+	cursor: pointer;
+	border: 0;
+	color: #fff;
+	font-weight: 400;
+	font-size: 1em;
+	text-transform: uppercase;
+	padding: .8em 1em;
+	text-align: center;
+	-webkit-appearance: none;
+	outline: none;
+	width:30%;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.beingMahout-wthree input[type="submit"]:hover{
+	background:#00BCD4;
+}
+.beingMahout-wthree {
+    width:50%;
+	margin:0 auto;
+}
+
 /*-- subscribe --*/
 .subscribe {
     background: url(../images/12.jpg) center;
@@ -1787,4 +1836,3 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 }
 
 /* -- //Responsive code -- */
-
