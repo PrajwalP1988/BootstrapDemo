@@ -11,7 +11,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
                function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- //custom-theme -->
-    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
     <!-- stylesheet -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -25,6 +24,42 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- font-awesome-icons -->
     <link href="css/font-awesome.css" type="text/css" rel="stylesheet">
     <!-- //font-awesome-icons -->
+    <style type="text/css">
+        section {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 400px;
+            width: 1200px;
+            background: #f00;
+            box-shadow: 0px 25px 30px rgba(0,0,0,.5);
+            display: flex;
+        }
+
+        .content {
+            width: calc(50% - 50px);
+            height: 100%;
+            background: #000;
+            box-sizing: border-box;
+            padding: 30px 50px;
+            color: #fff;
+            font-family: sans-serif;
+            line-height: 25px;
+        }
+
+        .image-box {
+            width: calc(50% + 50px);
+            height: 100%;
+            background: #f00;
+            box-sizing: border-box;
+            border-left: 100px solid #000;
+            border-bottom: 400px solid transparent;
+            background: url();
+            background-position: -350px -59px;
+            background-repeat: no-repeat;
+        }
+    </style>
 </head>
 <body>
     <div class="agileits_main">
@@ -39,8 +74,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </button>
                 <div class="collapse navbar-collapse top-nav l" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav linkEffects linkHoverEffect_11 custom-menu">
-                        <li><a href="index.html"><span>home</span></a></li>
-                        <li class="agile_active"><a href="#about" class="scroll"><span>about us</span></a></li>
+                        <li class="agile_active"><a href="/index.html"><span>home</span></a></li>
+                        <li><a href="profile.html"><span>about us</span></a></li>
                         <li><a href="#gallery" class="scroll"><span>gallery </span></a></li>
                         <li><a href="#team" class="scroll"><span>Maximus</span></a></li>
                         <li><a href="#contact" class="scroll"><span>Contact</span></a></li>
@@ -50,47 +85,55 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </nav>
         <!-- //menu -->
     </div>
-    <!-- //banner -->
-    
-    <!-- about -->
-    <div class="background-primary full-width" id="about" style="background-color:#4c6e90;height:150vh;">
-        <div class="row">
+    <!-- //banner -->   
 
-            <div class="col-lg-4">
-                <img class="full-img" src="img/img-02.jpg" style="height:70vh;" />
-            </div>
+    <div class="background-primary full-width" id="about" style="background-color:#4c6e90;height:70vh;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12" style="margin-bottom: 15px;">
+                    <h2 class="text-l-size-10 text-size-50 text-white" style="font-weight: 200;font-family:'Poppins';font-size: 50px !important;color:#ffffff;">Animal Cognition &amp; <b>Behaviour</b></h2>
+                    <p class="margin-bottom-60" style="font-weight:300;font-family:'Poppins';font-size: 1.92rem;line-height: 1.9rem;color:#ffffff;">
+                        Thoughts and Actions from Animal Kingdom
+                    </p>
+                </div>
 
-            <div class="col-lg-8" style="padding:4.5rem!important;margin-bottom: 15px;margin: 0.5rem 0;">
-                <h2 class="text-l-size-10 text-size-50 text-white" style="font-weight: 200;font-family:'Poppins';font-size: 50px !important;color:#ffffff;">Always <b>Nearby</b></h2>
-                <p class="margin-bottom-60" style="font-weight:300;font-family:'Poppins';font-size: 1.92rem;line-height: 1.9rem;color:#ffffff;">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.
-                </p>
-            </div>
-
-        </div>
-
-    </div>
-    
-    <div class="profile background-primary full-width">
-        <div class="row">
-            <div class="col-lg-4">
-            </div>
-            <div class="signature col-lg-8">
-                <h2 class="text-l-size-10 text-size-50 text-white">Always <b>Remember</b></h2>
-                <p class="margin-bottom-60" style="font-weight:300;font-family:'Poppins';font-size: 2.5rem;line-height: 2.5rem;color:#000000;margin-bottom: 25px;">
-                    " Just like us, Animals have landed on this Earth to enjoy the benefits and survive happily "
-                </p>
-                <p class="text-right" style="font-weight:300;font-family:'Poppins';font-size: 2.5rem;line-height: 2.5rem;color:#000000;margin-bottom: 25px;">
-                   - YOWILD &nbsp; &nbsp; &nbsp;
-                </p>
-                <!-- white Start your Business object -->
-                <img class="margin-left-20 margin-top-30 margin-bottom-60" src="img/start-your-business.svg" alt="">
             </div>
         </div>
     </div>
 
-    <!-- //about -->
+    <!--team -->
+    <div class="team agileits" id="team">
+        <div class="container">
+            <div class="team-ls">
+                <div class="col-md-4 col-sm-4 col-xs-4 team-grid agileits">
+                    <img class="img-l t1-wthree img-responsive" src="images/t1.jpg" alt="">
+                    <h5>Bird Migration</h5>
+                    <p>Animal-Human Welfare Organization <br />Survival Of Animals Very Essential</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 team-grid agileits t2">
+                    <a href="beingMahout.html"><img class="img-l t1-wthree img-responsive" src="images/t2.jpg" alt=""></a>
+                    <h5>Animal Architecture</h5>
+                    <p>A unique approach to stop the traditional (hard handling) taming skills of captive Asian elephants.</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 agileits team-grid">
+                    <a href="AnimalCognition.html"><img class="img-l t1-wthree img-responsive" src="images/t3.jpg" alt=""></a>
+                    <h5>Imprinting</h5>
+                    <p>To describe the mental capacities and explore the behaviour of animals.</p>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <!-- //team-->
+
+    <section>
+        <div class="content">
+            <h1>Why do we use it ?</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less </p>
+        </div>
+        <div class="image-box"></div>
+    </section>
+
     <!-- copy-right -->
     <div class="copy-right agileits">
         <div class="container">
@@ -144,6 +187,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             $().UItoTop({ easingType: 'easeOutQuart' });
         });
     </script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+    <script src="js/jquery.lazyload.min.js"></script>
+
+    <script type="text/javascript">
+        $("img.lazy").lazyload();
+    </script>
 </body>
 </html>
