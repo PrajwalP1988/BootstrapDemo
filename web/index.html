@@ -27,78 +27,86 @@
 </head>
 <body>
 
-    <div>
-        <div align="center" class="embed-responsive embed-responsive-16by9">
-            <video autoplay loop class="embed-responsive-item">
-                <source src="myvideo/myMovie.mp4" type="video/mp4">
-            </video>
-        </div>
+    <header>
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="myvideo//myMovie.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
 
-        <!-- header -->
-        <div class="agile_logo">
-            <h1 class="text-center"><a href="index.html"><img src="images/logo.png" alt="logo" /></a></h1>
-        </div>
-
-        <!-- banner -->
-        <div class="banner">
-            <div class="container">
-                <div class="slider">
-                    <div class="callbacks_container">
-                        <ul class="rslides callbacks callbacks1" id="slider4">
-                            <li>
-                                <div class="banner_text">
-                                    <h3 style="color:#e48310; opacity:20;">Animal Cognition Researcher</h3>
-                                    <span> </span>
-                                    <p>dicovering unexplored intelligence of animals</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="banner_text">
-                                    <h3 style="color:#e48310; opacity:20;">Naturalist</h3>
-                                    <span> </span>
-                                    <p>To Conserve and Protect the Natural Treasures of Planet</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="banner_text">
-                                    <h3 style="color:#e48310; opacity:20;">Commission Member - IUCN</h3>
-                                    <span> </span>
-                                    <p>world commission on environmental law</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="banner_text">
-                                    <h3 style="color:#e48310; opacity:20;">Founder Director "Project SAVE"</h3>
-                                    <span> </span>
-                                    <p>Animal Welfare Organization</p>
-                                </div>
-                            </li>
-                        </ul>
+                    <div class="agile_logo">
+                        <h1><a href="index.html"><img class="img-responsive center-block" src="images/logo.png" alt="logo" /></a></h1>
                     </div>
-                    <script src="js/responsiveslides.min.js"></script>
-                    <script>
-                        // You can also use "$(window).load(function() {"
-                        $(function () {
-                            // Slideshow 4
-                            $("#slider4").responsiveSlides({
-                                auto: true,
-                                pager: true,
-                                nav: true,
-                                speed: 500,
-                                namespace: "callbacks",
-                                before: function () {
-                                    $('.events').append("<li>before event fired.</li>");
-                                },
-                                after: function () {
-                                    $('.events').append("<li>after event fired.</li>");
-                                }
-                            });
 
-                        });
-                    </script>
+                    <!-- banner -->
+                    <div class="banner">
+                        <div class="container">
+                            <div class="slider">
+                                <div class="callbacks_container">
+                                    <ul class="rslides callbacks callbacks1" id="slider4">
+                                        <li>
+                                            <div class="banner_text">
+                                                <h3 style="color:#e48310; opacity:20;">Animal Cognition Researcher</h3>
+                                                <span> </span>
+                                                <p>dicovering unexplored intelligence of animals</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="banner_text">
+                                                <h3 style="color:#e48310; opacity:20;">Naturalist</h3>
+                                                <span> </span>
+                                                <p>To Conserve and Protect the Natural Treasures of Planet</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="banner_text">
+                                                <h3 style="color:#e48310; opacity:20;">Commission Member - IUCN</h3>
+                                                <span> </span>
+                                                <p>world commission on environmental law</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="banner_text">
+                                                <h3 style="color:#e48310; opacity:20;">Founder Director "Project SAVE"</h3>
+                                                <span> </span>
+                                                <p>Animal Welfare Organization</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <script src="js/responsiveslides.min.js"></script>
+                                <script>
+                                    // You can also use "$(window).load(function() {"
+                                    $(function () {
+                                        // Slideshow 4
+                                        $("#slider4").responsiveSlides({
+                                            auto: true,
+                                            pager: true,
+                                            nav: true,
+                                            speed: 500,
+                                            namespace: "callbacks",
+                                            before: function () {
+                                                $('.events').append("<li>before event fired.</li>");
+                                            },
+                                            after: function () {
+                                                $('.events').append("<li>after event fired.</li>");
+                                            }
+                                        });
+
+                                    });
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
+    </header>
+
+    <div class="agileits_main">
         <!-- menu -->
         <nav class="navbar navbar-inverse ">
             <div class="container">
@@ -121,6 +129,7 @@
         </nav>
         <!-- //menu -->
     </div>
+
     <!-- //banner -->
     <!-- home -->
     <div class="home_ layouts">
@@ -482,8 +491,7 @@
     <!-- //copy-right -->
 
     <div id="mybutton">
-        <button type="button" style="background: url(images/t2.jpg); width:103px; margin:20px; height:103px; border-radius: 60px; border: 2px solid #e48310; outline:none;" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-        </button>
+        <button type="button" style="background: url(/images/t2.jpg); width:103px; margin:20px; height:103px; border-radius: 60px; border: 2px solid #e48310; outline:none;" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"></button>
         <div class="collapse" id="collapseExample">
             <div class="card card-body">
                 <p style="font-size:large;"><a style="color:red;" href="tel:9108912041"> +91 9108912041</a></p>
