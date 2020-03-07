@@ -60,14 +60,59 @@ p {
 	color:#888;
 }
 /*-- header styling starts here --*/
-.agileits_main {
-    background: url(../images/1.jpg) no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
+
+header {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
 }
+
+    header video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: 0;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    header .container {
+        position: relative;
+        z-index: 2;
+    }
+
+    header .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+    }
+
+@media (pointer: coarse) and (hover: none) {
+    header {
+        background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+
+        header video {
+            display: none;
+        }
+}
+
+.agileits_main {
+    margin-top: -5.0em;
+}
+
 .agile_logo{
 	padding: 12em 0 0;
 }
@@ -80,6 +125,9 @@ p {
 	font-weight: 600;
 	text-transform: capitalize;
 	font-family: 'Dancing Script', cursive;
+}
+.agile_logo h1 a img {
+    width: 35%;
 }
 /*-- banner --*/
 .banner_text {
@@ -1845,11 +1893,6 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	}
 }
 @media screen and (max-width: 480px){
-    .video-container video {
-        margin-top: -260px;
-        width: 650px;
-    }
-
     .banner_text h3 {
         font-size: 1.5em;
         letter-spacing: 1px;
@@ -1962,12 +2005,7 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
         height: 40vh;
     }
 }
-@media screen and (max-width: 375px){
-    .video-container video {
-        margin-top: -310px;
-        width: 720px;
-    }
-
+@media screen and (max-width: 375px){    
 	.grid-1 .agile-text h5 {
 		padding: 3.88em 0;
 	}
