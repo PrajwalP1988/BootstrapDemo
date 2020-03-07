@@ -2005,6 +2005,9 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
     }
 }
 @media screen and (max-width: 375px){    
+	.agile_logo{
+		padding: 12em 0 0;
+	}
 	.grid-1 .agile-text h5 {
 		padding: 3.88em 0;
 	}
