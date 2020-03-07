@@ -1604,7 +1604,6 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 		padding: 0;
 	}
     .banner_text {
-        margin-top: -50px;
         padding: 12.5em 0;
     }
 	.banner_text h3 {
@@ -1616,7 +1615,6 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 		padding: 1.5em;
 	}
     .banner_text h3 {
-        margin-top: -50px;
         font-size: 3.8em;
     }	
 	.about_agileits {
@@ -1678,7 +1676,6 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 		width: 86%;
 	}
     .banner_text h3 {
-        margin-top: -50px;
         font-size: 3.3em;
     }
 	
@@ -1736,7 +1733,6 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 		padding: 2.5em 0 0;
 	}
     .banner_text {
-        margin-top: -50px;
         padding: 10em 0;
     }
 	.banner_text h3 {
@@ -1766,7 +1762,6 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 }
 @media screen and (max-width: 667px){
     .banner_text {
-        margin-top: -50px;
         padding: 8em 0;
     }
 	.about_agileits,.about_text_l,.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8,.team-grid,.grid-1,.contact-right-l,.contact-left-ls{
@@ -1842,7 +1837,6 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 		padding: 3em 0 0;
 	}
     .banner_text {
-        margin-top: -50px;
         padding: 4em 0;
     }
 	.team-grid.t3 {
@@ -1879,7 +1873,6 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 		font-size: 2.5em;
 	}
     .banner_text {
-        margin-top: -50px;
         padding: 3.2em 0;
     }
 	.subscribe-wthree {
@@ -1900,7 +1893,6 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 }
 @media screen and (max-width: 480px){
     .banner_text h3 {
-        margin-top: -50px;
         font-size: 1.5em;
         letter-spacing: 1px;
     }
@@ -1978,7 +1970,6 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 		font-size: 0.5em;
 	}
     .banner_text h3 {
-        margin-top: -50px;
         font-size: 2em;
     }
 	.grid_,.grid-c.grid_l {
@@ -2023,7 +2014,6 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 }
 @media screen and (max-width: 320px){
     .banner_text h3 {
-        margin-top: -50px;
         font-size: 1.5em;
     }
 	.grid-1 .agile-text h5 {
