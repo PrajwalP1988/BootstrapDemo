@@ -110,8 +110,13 @@ header {
         }
 }
 
-.agileits_main {
+.agileits_mainhome {
     margin-top: -5.0em;
+}
+
+.agileits_main {
+    background-color: rgb(18, 18, 18);
+    margin-top: 1.2em;
 }
 
 .agile_logo{
