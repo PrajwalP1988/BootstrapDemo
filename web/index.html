@@ -28,7 +28,6 @@
 <body>
 
     <header>
-        <div class="overlay"></div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
             <source src="myvideo//myMovie.mp4" type="video/mp4">
         </video>
@@ -36,67 +35,73 @@
             <div class="d-flex h-100 text-center align-items-center">
                 <div class="w-100 text-white">
 
-                    <div class="agile_logo">
-                        <h1><a href="index.html"><img class="img-responsive center-block" src="images/logo.png" alt="logo" /></a></h1>
+                    
+
+                    <div class="row">
+                        <div class="agile_logo">
+                            <h1><a href="index.html"><img class="img-responsive center-block" src="images/logo.png" alt="logo" /></a></h1>
+                        </div>
                     </div>
+                    
+                    <div class="row">
+                        <!-- banner -->
+                        <div class="banner">
+                            <div class="container">
+                                <div class="slider">
+                                    <div class="callbacks_container">
+                                        <ul class="rslides callbacks callbacks1" id="slider4">
+                                            <li>
+                                                <div class="banner_text">
+                                                    <h3 style="color:#e48310; opacity:20;">Animal Cognition Researcher</h3>
+                                                    <span> </span>
+                                                    <p>dicovering unexplored intelligence of animals</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="banner_text">
+                                                    <h3 style="color:#e48310; opacity:20;">Naturalist</h3>
+                                                    <span> </span>
+                                                    <p>To Conserve and Protect the Natural Treasures of Planet</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="banner_text">
+                                                    <h3 style="color:#e48310; opacity:20;">Commission Member - IUCN</h3>
+                                                    <span> </span>
+                                                    <p>world commission on environmental law</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="banner_text">
+                                                    <h3 style="color:#e48310; opacity:20;">Founder Director "Project SAVE"</h3>
+                                                    <span> </span>
+                                                    <p>Animal Welfare Organization</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <script src="js/responsiveslides.min.js"></script>
+                                    <script>
+                                        // You can also use "$(window).load(function() {"
+                                        $(function () {
+                                            // Slideshow 4
+                                            $("#slider4").responsiveSlides({
+                                                auto: true,
+                                                pager: true,
+                                                nav: true,
+                                                speed: 500,
+                                                namespace: "callbacks",
+                                                before: function () {
+                                                    $('.events').append("<li>before event fired.</li>");
+                                                },
+                                                after: function () {
+                                                    $('.events').append("<li>after event fired.</li>");
+                                                }
+                                            });
 
-                    <!-- banner -->
-                    <div class="banner">
-                        <div class="container">
-                            <div class="slider">
-                                <div class="callbacks_container">
-                                    <ul class="rslides callbacks callbacks1" id="slider4">
-                                        <li>
-                                            <div class="banner_text">
-                                                <h3 style="color:#e48310; opacity:20;">Animal Cognition Researcher</h3>
-                                                <span> </span>
-                                                <p>dicovering unexplored intelligence of animals</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="banner_text">
-                                                <h3 style="color:#e48310; opacity:20;">Naturalist</h3>
-                                                <span> </span>
-                                                <p>To Conserve and Protect the Natural Treasures of Planet</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="banner_text">
-                                                <h3 style="color:#e48310; opacity:20;">Commission Member - IUCN</h3>
-                                                <span> </span>
-                                                <p>world commission on environmental law</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="banner_text">
-                                                <h3 style="color:#e48310; opacity:20;">Founder Director "Project SAVE"</h3>
-                                                <span> </span>
-                                                <p>Animal Welfare Organization</p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <script src="js/responsiveslides.min.js"></script>
-                                <script>
-                                    // You can also use "$(window).load(function() {"
-                                    $(function () {
-                                        // Slideshow 4
-                                        $("#slider4").responsiveSlides({
-                                            auto: true,
-                                            pager: true,
-                                            nav: true,
-                                            speed: 500,
-                                            namespace: "callbacks",
-                                            before: function () {
-                                                $('.events').append("<li>before event fired.</li>");
-                                            },
-                                            after: function () {
-                                                $('.events').append("<li>after event fired.</li>");
-                                            }
                                         });
-
-                                    });
-                                </script>
+                                    </script>
+                                </div>
                             </div>
                         </div>
                     </div>
