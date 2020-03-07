@@ -2008,6 +2008,14 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	.agile_logo{
 		padding: 12em 0 0;
 	}
+	header {
+	    position: relative;
+	    background-color: black;
+	    height: 45vh;
+	    min-height: 25rem;
+	    width: 100%;
+	    overflow: hidden;
+	}
 	.grid-1 .agile-text h5 {
 		padding: 3.88em 0;
 	}
