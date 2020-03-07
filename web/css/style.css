@@ -155,6 +155,7 @@ header {
     margin: 1.5em 0 0.5em;
 }
 .banner_text p {
+	height: 50px;
 	color: #fff;
 	font-size: 1.3em;
 	margin: 0.5em;
