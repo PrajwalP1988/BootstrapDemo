@@ -155,7 +155,7 @@ header {
     margin: 1.5em 0 0.5em;
 }
 .banner_text p {
-	height: 200px;
+	height: auto;
 	color: #fff;
 	font-size: 1.3em;
 	margin: 0.5em;
@@ -1901,7 +1901,7 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
         letter-spacing: 1px;
     }    
 	.banner_text p {
-        height: 20px;
+        height: auto;
 		font-size: 1.0em;
 	}
     .agile_logo h1 a img {
