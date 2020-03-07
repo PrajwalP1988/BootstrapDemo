@@ -1544,8 +1544,8 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 
 #mybutton {
     position: fixed;
-    bottom: 60px;
-    right: 10px;
+    bottom: 150px;
+    right: -20px;
 }
 
 /* -- Responsive code -- */
