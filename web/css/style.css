@@ -65,9 +65,10 @@ header {
     position: relative;
     background-color: black;
     height: 85vh;
-    min-height: 25rem;
+    min-height: 15rem;
     width: 100%;
     overflow: hidden;
+    vertical-align: middle;
 }
 
     header video {
@@ -101,7 +102,7 @@ header {
 
 @media (pointer: coarse) and (hover: none) {
     header {
-        background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+        background: url(/images/16) black no-repeat center center scroll;
     }
 
         header video {
@@ -1603,9 +1604,6 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	.contact-icon-wthree {
 		padding: 0;
 	}
-    .banner_text {
-        padding: 12.5em 0;
-    }
 	.banner_text h3 {
        font-size: 3.5em;
     }
@@ -1729,11 +1727,8 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 }	
 
 @media screen and (max-width: 736px){
-	.agile_logo {
-		padding: 2.5em 0 0;
-	}
-    .banner_text {
-        padding: 10em 0;
+    .agile_logo {
+        padding: 12em 0 0;
     }
 	.banner_text h3 {
 		font-size: 3em;
@@ -1761,10 +1756,10 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	}
 }
 @media screen and (max-width: 667px){
-    .banner_text {
-        padding: 8em 0;
+    .agile_logo {
+        padding: 12em 0 0;
     }
-	.about_agileits,.about_text_l,.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8,.team-grid,.grid-1,.contact-right-l,.contact-left-ls{
+    .about_agileits,.about_text_l,.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8,.team-grid,.grid-1,.contact-right-l,.contact-left-ls{
 		width: 100%;
 	}	
 	.about_text_l {
@@ -1812,6 +1807,9 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
     }
 }	
 @media screen and (max-width: 640px){
+    .agile_logo {
+        padding: 12em 0 0;
+    }
 	.subscribe-wthree {
 		width: 67%;
 	}
@@ -1834,11 +1832,8 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 		font-size: 2.8em;
 	}
 	.agile_logo {
-		padding: 3em 0 0;
+        padding: 12em 0 0;
 	}
-    .banner_text {
-        padding: 4em 0;
-    }
 	.team-grid.t3 {
 		margin-bottom: 0;
 	}
@@ -1869,12 +1864,12 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	}
 }
 @media screen and (max-width: 568px){
+    .agile_logo {
+        padding: 12em 0 0;
+    }
 	.banner_text h3 {
 		font-size: 2.5em;
 	}
-    .banner_text {
-        padding: 3.2em 0;
-    }
 	.subscribe-wthree {
 		width: 77%;
 	}
@@ -1892,21 +1887,21 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	}
 }
 @media screen and (max-width: 480px){
+    .agile_logo {
+        padding: 12em 0 0;
+    }
     .banner_text h3 {
         font-size: 1.5em;
         letter-spacing: 1px;
-    }
-    
+    }    
 	.banner_text p {
-        height: 50px;
+        height: 20px;
 		font-size: 1.0em;
 	}
-
     .agile_logo h1 a img {
         margin-top: -20px;
         width: 60%;
 	}
-
     .contact-right-l {
 		padding: 2em 3em;
 	}	
@@ -1940,6 +1935,9 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
     }
 }
 @media screen and (max-width: 414px){
+    .agile_logo {
+        padding: 12em 0 0;
+    }
 	.contact-right-l input[type="text"],.contact-right-l input[type="email"]{
 		width:100%;
 	}
@@ -1966,6 +1964,9 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	}	
 }
 @media screen and (max-width: 384px){
+    .agile_logo {
+        padding: 12em 0 0;
+    }
 	.agile_logo h1 a {
 		font-size: 0.5em;
 	}
@@ -2004,18 +2005,10 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
         height: 40vh;
     }
 }
-@media screen and (max-width: 375px){    
-	.agile_logo{
-		padding: 12em 0 0;
-	}
-	header {
-	    position: relative;
-	    background-color: black;
-	    height: 45vh;
-	    min-height: 25rem;
-	    width: 100%;
-	    overflow: hidden;
-	}
+@media screen and (max-width: 375px){
+    .agile_logo {
+        padding: 12em 0 0;
+    }
 	.grid-1 .agile-text h5 {
 		padding: 3.88em 0;
 	}
@@ -2024,6 +2017,9 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	}
 }
 @media screen and (max-width: 320px){
+    .agile_logo {
+        padding: 12em 0 0;
+    }
     .banner_text h3 {
         font-size: 1.5em;
     }
