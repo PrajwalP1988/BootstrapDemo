@@ -64,7 +64,7 @@ p {
 header {
     position: relative;
     background-color: black;
-    height: 100vh;
+    height: 85vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -132,7 +132,6 @@ header {
 /*-- banner --*/
 .banner_text {
     text-align: center;
-    padding: 10.5em 0;
 }
 .banner_text h3 {
 	color: #fff;
