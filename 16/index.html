@@ -7,12 +7,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="bizface">
-    <meta name="author" content="ripplethemes">
-    <meta name="copyright" content="ripplethemes">
+    <meta name="description" content="spiritual yoga">
+    <meta name="author" content="gurumatha amma">
+    <meta name="copyright" content="jeevana dharma yoga trust">
 
     <!--title-->
-    <title>Bizface- Corporate HTML5 Template</title>
+    <title>Gurumatha Amma - Home</title>
     <!--title end-->
 
     <!-- faveicon start   -->
@@ -21,51 +21,59 @@
     <!-- stylesheet start -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script>
+        $(window).load(function (){
+            $('#myModal').modal('show');
+        });
+    </script>
+
 </head>
 <!--head end-->
 
 <body>
-    <!--header start-->
-    <header class="main-header">
-        <!--Header Topbar-->
-        <div class="header-top-bar">
-            <div class="container">
-                <div class="clearfix">
-                    <!--Top Left-->
-                    <div class="top-left">
-                        <!--Social Links-->
-                        <ul class="social-links">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li class="active"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                    
-                    <!--Top Right-->
-                    <div class="top-right">
-                        <ul class="info-links clearfix">
-                            <li><a href="#"><i class="icon fa fa-phone"></i> +977-9746390089</a></li>
-                            <li><a href="#"><i class="icon fa fa-envelope"></i> ripplethemes@gmail.com</a></li>
-                            <li><a href="signin.html"><i class="icon fa fa-sign-in"></i> Signin</a></li>
-                            <li><a href="register.html"><i class="icon fa fa-key"></i> Register</a></li>
-                        </ul>
-                    </div>
+    <div id="myModal" class="modal" role="dialog">
+        <div class="modal-dialog" style="width:1000px;">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="img-responsive" alt="" src="images/Home.bmp">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
+    </div>
+
+    <!--header start-->
+    <header class="main-header">
         
+        <div class="master-header">
+            <div class="master-logo-icon">
+                <img src="images/img-00.GIF" alt="logo">
+            </div>
+            <div class="master-logo-icon">
+                <img src="images/header_2.png" alt="logo">
+            </div>
+            <div class="master-logo-icon">
+                <img src="images/img-00.GIF" alt="logo">
+            </div>
+        </div>
+
         <!-- Start Navigation -->
-        <div id="masthead" class="site-header menu">
+        <div id="masthead" class="site-header menu">            
             <div class="container">
-                <div class="site-branding">
-                    <a href="index.html" class="logo"><img src="images/logo.png" alt="logo"></a>
+                <div class="site-branding">                    
+                    <a href="index.html" class="logo"><img src="images/icon-2.png" alt="logo" ><span>Centre for Self Realisation</span></a>
+                    <a href="index.html" class="logo"><img src="images/icon-1.png" alt="logo" ><span>Vyasa <br/> Veda Peeta</span></a>
+                    <a href="index.html" class="logo"><img src="images/icon-3.png" alt="logo"><span>Jeevana Dharma Yoga</span></a>
                 </div>
                 <!-- .site-branding -->
                 <div class="header-nav-search">
                     <div class="header-search">
-                        <i class="fa fa-search top-search"></i>
+                        <!-- <i class="fa fa-search top-search"></i> -->
                         <div class="search-popup">
                             <form role=search action="search" class="form-wrapper">
                                 <div>
@@ -87,32 +95,16 @@
                                 <i class="fa fa-close"></i>
                             </div>
                             <ul>
-                                <li class="current-menu-item "><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About</a> </li>
-                                <li><a href="service.html">Services</a></li>
-                                <li class="menu-item-has-children"><a href="#">Pages</a>
+                                <li class="current-menu-item"><a href="index.html">Home</a></li>
+                                <li><a href="#about">About</a> </li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="publication.html">Publication</a></li>
+                                <li class="menu-item-has-children"><a href="#">Events</a>
                                     <ul>
-                                        <li><a href="signin.html">Sign in</a></li>
-                                        <li><a href="register.html">register</a></li>
-                                        <li><a href="404.html">404 Error</a></li>
-                                        <li class="menu-item-has-children"><a href="blog.html">blog</a>
-                                            <ul>
-                                                <li><a href="blog-left.html">Blog</a></li>
-                                                <li><a href="blog-right.html">Blog2</a></li>
-                                                <li><a href="blog-detail.html">Blog details</a></li>
-                                            </ul>
-                                        </li>
+                                        <li><a href="announcement.html">Announcement</a></li>
+                                        <li><a href="upcoming.html">Upcoming/Past</a></li>
                                     </ul>
-                                </li>
-                                
-                                <li><a href="project.html">Projects</a></li>
-                                <li class="menu-item-has-children"><a href="#">Blog</a>
-                                    <ul>
-                                        <li><a href="blog-left.html">Blog</a></li>
-                                        <li><a href="blog-right.html">Blog2</a></li>
-                                        <li><a href="blog-detail.html">Blog details</a></li>
-                                    </ul>
-                                </li>
+                                </li>                            
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </nav>
@@ -134,21 +126,17 @@
                 <div class="slider-content">
                     <div class="carousel-caption caption-left">
                         <div class="content">
-                            <h2>creative corporate agency</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore adipiscing</p>
-                            <a  href="service.html" class="btn btn-primary inverse">View services</a>
+                            <h2>Create karma so that the result should not affect you</h2>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="slider-items" style="background-image:url(images/slider/2.jpg);">
+            <div class="slider-items" style="background-image:url(images/slider/Amma-2.jpg);">
                 <div class="slider-overlay"></div>
                 <div class="slider-content">
                     <div class="carousel-caption caption-center">
                         <div class="content">
-                            <h2>clean & modern design</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore adipiscing</p>
-                            <a  href="service.html" class="btn btn-primary inverse">View services</a>
+                            <h2>Each age needs a new kind of spirituality</h2>
                         </div>
                     </div>
                 </div>
@@ -158,9 +146,20 @@
                 <div class="slider-content">
                     <div class="carousel-caption caption-right">
                         <div class="content">
-                            <h2>awesome corporate bizface</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore adipiscing</p>
-                            <a  href="service.html" class="btn btn-primary inverse">View services</a>
+                            <h2>Passion for everything is Compassion</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            <div class="slider-items" style="background-image:url(images/slider/4.jpg);">
+                <div class="slider-overlay"></div>
+                <div class="slider-content">
+                    <div class="carousel-caption caption-center">
+                        <div class="content">
+                            <h2><br/></h2>
+                            <h2><br/></h2>
+                            <h2><br/></h2>
+                            <h2>Death of 'Ahankara' is the birth of wisdom</h2>
                         </div>
                     </div>
                 </div>
@@ -168,12 +167,41 @@
         </div>
     </div>
 
+    <header class="main-header">
+        <!--Header Topbar-->
+    <div class="header-top-bar">
+        <div class="container">
+            <div class="clearfix">
+                <!--Top Left-->
+                <div class="top-left">
+                    <!--Social Links-->
+                    <ul class="social-links">
+                        <li style="visibility: hidden;"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li style="visibility: hidden;" class="active"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li style="visibility: hidden;"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li style="visibility: hidden;"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li style="visibility: hidden;"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                
+                <!--Top Right-->
+                <div class="top-right">
+                    <ul class="info-links clearfix">
+                        <li><a href="announcement.html"><i class="icon fa fa-history"></i> 9 Days Acceptance Course </a></li>
+                        <li><a href="upcoming.html"><i class="icon fa fa-briefcase"></i> Maha-Shivaratri</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+
     <!--bizface-about-->
-    <section class="bizface-about section">
+    <section id="about" class="bizface-about section">
         <div class="container">
             <div class="row">
                 <div class="sec-title">
-                    <h2>about us</h2>
+                    <h2>about amma</h2>
                 </div>
                 <div class="about-inner">
                     <div class="col-md-5 col-sm-12 col-xs-12">
@@ -196,7 +224,7 @@
                                         <h5><a href="about.html">Work with heart</a></h5>
                                     </div>
                                     <div class="bizface-about-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur ish dipisicing elit, sed do eiusmod tempor lorem incididunt ut labore et .</p>
+                                        <p>Gurumatha Amma is a realised soul of our modern time whose life is an expression of great human values. Spirituality is not apart from her life.</p>
                                     </div>
                                 </div>
                             </div>
@@ -209,7 +237,7 @@
                                         <h5><a href="about.html">Reliable Services</a></h5>
                                     </div>
                                     <div class="bizface-about-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur ish dipisicing elit, sed do eiusmod tempor lorem incididunt ut labore et .</p>
+                                        <p>She is the founder of " The Center for Self Realisation" - a Jeevana Dharma Yoga trust which is offering a life transforming experience to humanity.</p>
                                     </div>
                                 </div>
                             </div>
@@ -222,7 +250,7 @@
                                         <h5><a href="about.html">world market</a></h5>
                                     </div>
                                     <div class="bizface-about-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur ish dipisicing elit, sed do eiusmod tempor lorem incididunt ut labore et .</p>
+                                        <p>Her pure fragrance of love and compassion is a magnetic center which has been attracting thousands of children across the globe who recognises her as Gurumatha AMMA.</p>                                        
                                     </div>
                                 </div>
                             </div>
@@ -235,7 +263,7 @@
                                         <h5><a href="about.html">great support</a></h5>
                                     </div>
                                     <div class="bizface-about-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur ish dipisicing elit, sed do eiusmod tempor lorem incididunt ut labore et .</p>
+                                        <p>She is an embodiment of truth and peace. Her unattached fulfilled life is her true religion. She appears as a very ordinary person with an extra ordinary inner strength and potential.</p>
                                     </div>
                                 </div>
                             </div>
@@ -247,202 +275,28 @@
     </section>
     <!-- about end -->
 
-    <!-- service start -->
-    <section class="bizface-service-area section grey-background">
+    <!--bizface-blog-detail-->
+    <div class="page blog-detail">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="sec-title">
-                        <h2>Services</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Praesent interdum.</p>
-                    </div>
-                </div>
-                <div class="service-inner">
-                    <div class="col-md-4 col-sm-6 col-xs-12 ">
-                        <div class="bizface-service-div">
-                            <div class="bizface-service-icon">
-                                <a href="#"><i class="fa fa-briefcase"></i></a>
-                            </div>
-                            <div class="bizface-service-content">
-                                <h5><a href="service.html">Busine consulting</a></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Praesent interdum.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 ">
-                        <div class="bizface-service-div">
-                            <div class="bizface-service-icon">
-                                <a href="#"><i class="fa fa-money"></i></a>
-                            </div>
-                            <div class="bizface-service-content">
-                                <h5><a href="service.html">Investment plan</a></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Praesent interdum.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 ">
-                        <div class="bizface-service-div">
-                            <div class="bizface-service-icon">
-                                <a href="#"><i class="fa fa-edit"></i></a>
-                            </div>
-                            <div class="bizface-service-content">
-                                <h5><a href="service.html">Creative idea</a></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Praesent interdum.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 ">
-                        <div class="bizface-service-div">
-                            <div class="bizface-service-icon">
-                                <a href="#"><i class="fa fa-retweet"></i></a>
-                            </div>
-                            <div class="bizface-service-content">
-                                <h5><a href="service.html">Advance analytics</a></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Praesent interdum.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 ">
-                        <div class="bizface-service-div">
-                            <div class="bizface-service-icon">
-                                <a href="#"><i class="fa fa-clock-o"></i></a>
-                            </div>
-                            <div class="bizface-service-content">
-                                <h5><a href="service.html">time sensitive</a></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Praesent interdum.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 ">
-                        <div class="bizface-service-div">
-                            <div class="bizface-service-icon">
-                                <a href="#"><i class="fa fa-globe"></i></a>
-                            </div>
-                            <div class="bizface-service-content">
-                                <h5><a href="service.html">world marketing</a></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Praesent interdum.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Project Area Start -->
-    <div class="bizface-projects section">
-        <div class="container">
-          <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="sec-title">
-                        <h2>Our Projects</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Praesent interdum.</p>
-                    </div>
-                </div>
-            </div>
-           <div class="row">
-               <div class="col-md-12">
-                   <div class="project-menu">
-                       <ul>
-                           <li class="filter" data-filter="all">All</li>
-                           <li class="filter" data-filter=".web-design">Web Design</li>
-                           <li class="filter" data-filter=".graphics-design">Graphics Design</li>
-                           <li class="filter" data-filter=".android-apps-development">Android apps Development</li>
-                           <li class="filter" data-filter=".animation">Animation</li>
-                           <li class="filter" data-filter=".java">Java</li>
-                       </ul>
-                   </div>
-               </div>
-           </div>
-            <div class="row">
-                <div id="project-wrapper">
-                    <div class="col-md-4 col-sm-6 mix web-design java">
-                        <div class="single-project-item">
-                            <div class="project-overlay"></div>
-                            <div class="project-image">
-                                <img src="images/gallery/1.jpg" alt="">
-                            </div>
-                            <div class="project-link">
-                                <a class="project-priview" href="images/gallery/1.jpg"><i class="fa fa-search"></i><span class="btn-shape"></span></a>
-                                <a href="#"><i class="fa fa-link"></i><span class="btn-shape"></span></a>
-                            </div>
-                            <div class="project-text">
-                                Web Design, Java
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 mix animation android-apps-developmen">
-                        <div class="single-project-item">
-                            <div class="project-overlay"></div>
-                            <div class="project-image">
-                                <img src="images/gallery/2.jpg" alt="">
-                            </div>
-                            <div class="project-link">
-                                <a class="project-priview" href="images/gallery/2.jpg"><i class="fa fa-search"></i><span class="btn-shape"></span></a>
-                                <a href="#"><i class="fa fa-link"></i><span class="btn-shape"></span></a>
-                            </div>
-                            <div class="project-text">
-                                Graphics Design, Animation
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 mix animation web-design">
-                        <div class="single-project-item">
-                            <div class="project-overlay"></div>
-                            <div class="project-image">
-                                <img src="images/gallery/3.jpg" alt="">
-                            </div>
-                            <div class="project-link">
-                                <a class="project-priview" href="images/gallery/3.jpg"><i class="fa fa-search"></i><span class="btn-shape"></span></a>
-                                <a href="#"><i class="fa fa-link"></i><span class="btn-shape"></span></a>
-                            </div>
-                            <div class="project-text">
-                                Andriod Development, Web Design
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 mix web-design android-apps-development">
-                        <div class="single-project-item">
-                            <div class="project-overlay"></div>
-                            <div class="project-image">
-                                <img src="images/gallery/4.jpg" alt="">
-                            </div>
-                            <div class="project-link">
-                                <a class="project-priview" href="images/gallery/4.jpg"><i class="fa fa-search"></i><span class="btn-shape"></span></a>
-                                <a href="#"><i class="fa fa-link"></i><span class="btn-shape"></span></a>
-                            </div>
-                            <div class="project-text">
-                                Andriod Development, Web Design
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 mix graphics-design web-design">
-                        <div class="single-project-item">
-                            <div class="project-overlay"></div>
-                            <div class="project-image">
-                                <img src="images/gallery/5.jpg" alt="">
-                            </div>
-                            <div class="project-link">
-                                <a class="project-priview" href="images/gallery/5.jpg"><i class="fa fa-search"></i><span class="btn-shape"></span></a>
-                                <a href="#"><i class="fa fa-link"></i><span class="btn-shape"></span></a>
-                            </div>
-                            <div class="project-text">
-                                Web Design, Java
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 mix web-design android-apps-development">
-                        <div class="single-project-item">
-                            <div class="project-overlay"></div>
-                            <div class="project-image">
-                                <img src="images/gallery/6.jpg" alt="">
-                            </div>
-                            <div class="project-link">
-                                <a class="project-priview" href="images/gallery/6.jpg"><i class="fa fa-search"></i><span class="btn-shape"></span></a>
-                                <a href="#"><i class="fa fa-link"></i><span class="btn-shape"></span></a>
-                            </div>
-                            <div class="project-text">
-                                Web Design, Java
+                <div class="news-inner clearfix">
+                    <div class="col-sm-12 col-md-12">
+                        <div class="news-item">
+                            <div class="news-item-inner">
+                                <div class="news-item-content">
+                                    <div class="news-detail-content">
+                                        <h3>All About Amma</h3>
+                                        <blockquote>
+                                            She is spreading the basic truth and the essence of simple life in her teachings.
+                                        </blockquote>
+                                        <blockquote>
+                                            Her holiness is pure, blissfull and wholesome. She is leading a disciplined life. In her presence we feel our presence.
+                                        </blockquote>
+                                        <blockquote>
+                                            You are welcome to join us, Amma's family, of innumerable devotees and children, In the great journey.
+                                        </blockquote>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -450,14 +304,192 @@
             </div>
         </div>
     </div>
-    <!-- Project Area End -->
+
+    <section class="bizface-service-area section grey-background">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="sec-title">
+                        <h2>Event &amp; Programmes</h2>
+                        <p>Poojya Gurumatha Amma's program schedule for Jan, Feb & Mar - 2019</p>
+                    </div>
+                    <!--bizface-blog-detail-->
+                    <div class="page blog-detail">
+                        <div class="container">
+                            <div class="row">
+                                <div class="news-inner clearfix">
+                                    <div class="col-sm-8 col-md-8">
+                                        <div class="news-item">
+                                            <div class="news-item-inner">
+                                                <div class="news-item-content">
+                                                    <div  class="comment-section">
+                                                        <!--Reviews Container-->
+                                                        <div class="bizface-comment">
+
+                                                            <!--Reviews-->
+                                                            <div class="comment-box clearfix">
+                                                                <figure class="comment-thumb"><img src="images/users/1.GIF" alt=""></figure>
+                                                                <div class="comment-content">
+                                                                    <div class="comment-info">01.01.2019: </div>
+                                                                    <div class="comment-text">
+                                                                        <p>Parama Poojya Gurumatha Amma's 69th yearBirthday celebrations. "Shri Lalitha Sahasra Nama Homa" at 9.00am at Ashram premises.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="comment-box clearfix">
+                                                                <figure class="comment-thumb"><img src="images/users/1.GIF" alt=""></figure>
+                                                                <div class="comment-content">
+                                                                    <div class="comment-info">16.01.2019: </div>
+                                                                    <div class="comment-text">
+                                                                        <p>Global Tele Conference "Hunnime Nudi", Poojya Amma connects all her childern across the Globe at 7.30am.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="comment-box clearfix">
+                                                                <figure class="comment-thumb"><img src="images/users/1.GIF" alt=""></figure>
+                                                                <div class="comment-content">
+                                                                    <div class="comment-info">06.01.2019 - 15.01.2019: </div>
+                                                                    <div class="comment-text">
+                                                                        <p>9 days Basic course in Meditation.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="comment-box clearfix">
+                                                                <figure class="comment-thumb"><img src="images/users/1.GIF" alt=""></figure>
+                                                                <div class="comment-content">
+                                                                    <div class="comment-info">22.01.2019 - 22.01.2019: </div>
+                                                                    <div class="comment-text">
+                                                                        <p>Discourse on Sri Lalitha Sahasra Nama Contact</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="comment-box clearfix">
+                                                                <figure class="comment-thumb"><img src="images/users/1.GIF" alt=""></figure>
+                                                                <div class="comment-content">
+                                                                    <div class="comment-info">29.01.2019 - 02.02.2019: </div>
+                                                                    <div class="comment-text">
+                                                                        <p>	Spiritual Reteat in Kumbakonam</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="comment-box clearfix">
+                                                                <figure class="comment-thumb"><img src="images/users/1.GIF" alt=""></figure>
+                                                                <div class="comment-content">
+                                                                    <div class="comment-info">09.02.2019 - 17.02.2019: </div>
+                                                                    <div class="comment-text">
+                                                                        <p>9 days Basic course in Meditation.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="comment-box clearfix">
+                                                                <figure class="comment-thumb"><img src="images/users/1.GIF" alt=""></figure>
+                                                                <div class="comment-content">
+                                                                    <div class="comment-info">14.02.2019: </div>
+                                                                    <div class="comment-text">
+                                                                        <p>Global Tele Conference "Hunnime Nudi", at 7.30am.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="comment-box clearfix">
+                                                                <figure class="comment-thumb"><img src="images/users/1.GIF" alt=""></figure>
+                                                                <div class="comment-content">
+                                                                    <div class="comment-info">22.02.2019 - 23.02.2019: </div>
+                                                                    <div class="comment-text">
+                                                                        <p>Weekend Retreat at Ashram</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="comment-box clearfix">
+                                                                <figure class="comment-thumb"><img src="images/users/1.GIF" alt=""></figure>
+                                                                <div class="comment-content">
+                                                                    <div class="comment-info">27.02.2019: </div>
+                                                                    <div class="comment-text">
+                                                                        <p>Mahashivaratri (Programme Details printed Separately)</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="comment-box clearfix">
+                                                                <figure class="comment-thumb"><img src="images/users/1.GIF" alt=""></figure>
+                                                                <div class="comment-content">
+                                                                    <div class="comment-info">03.03.2019 - 11.03.2019: </div>
+                                                                    <div class="comment-text">
+                                                                        <p>9 days Basic Meditation course at Ashram</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="comment-box clearfix">
+                                                                <figure class="comment-thumb"><img src="images/users/1.GIF" alt=""></figure>
+                                                                <div class="comment-content">
+                                                                    <div class="comment-info">16.03.2019: </div>
+                                                                    <div class="comment-text">
+                                                                        <p>Global Tele Conference "Hunnime Nudi", at 7.30am.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>                                                            
+                                                            <div class="comment-box clearfix">
+                                                                <figure class="comment-thumb"><img src="images/users/1.GIF" alt=""></figure>
+                                                                <div class="comment-content">
+                                                                    <div class="comment-info">17.03.2019 - 21.03.2019: </div>
+                                                                    <div class="comment-text">
+                                                                        <p>Shri Lalitha Sahasra Nama Sookshmartha Darshana.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4">
+                                        <aside class="sidebar">
+                                            <div class="sidebar-widget post-widget">
+                                                <div class="widget-title">
+                                                    <h3>Recent post</h3>
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <div class="post-widget-thumb">
+                                                            <img src="images/sidebar-post/1.GIF" class="img-responsive" alt="">
+                                                        </div>
+                                                        <div class="post-widget-content">
+                                                            <h4><a href="announcement.html">9 Days Acceptance Course </a></h4>
+                                                            <span>May 05, 2019</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="post-widget-thumb">
+                                                            <img src="images/sidebar-post/1.GIF" class="img-responsive" alt="">
+                                                        </div>
+                                                        <div class="post-widget-content">
+                                                            <h4><a href="#">Maha-Shivaratri</a></h4>
+                                                            <span>Feb 27, 2014</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </aside>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--bizface-counter-->
-    <section class="bizface-counter section" style="background-image:url(images/background/counter.jpg);">
+    <!-- <section class="bizface-counter section" style="background-image:url(images/background/counter.jpg);">
         <div class="bizface-overlay"></div>
         <div class="container ">
             <div class="row clearfix ">
-                <!--Column-->
                 <div class="col-md-3 col-sm-6 ">
                     <div class="counter-area ">
                         <div class="icon-counter ">
@@ -499,62 +531,54 @@
                 </div>        
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- counter end -->
 
     <!--bizface-news-->
     <section class="news-section section">
         <div class="container">
             <div class="sec-title">
-                <h2>News update</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Praesent interdum.</p>
+                <h2>Photo Gallery</h2>
+                <p>A Glimpse on Events participated by Amma</p>
             </div>
             <div class="news-inner">
                 <div class="news-carousel owl-carousel owl-theme">
                     <div class="news-item">
                         <div class="news-item-inner">
-                            <figure><a href="blog-detail.html"><img src="images/news/1.jpg" alt=""></a></figure>
+                            <figure><img src="images/news/1.jpg" alt=""></figure>
                             <div class="news-item-content">
-                                <div class="news-date">
-                                    <span><i class="fa fa-calendar"></i>17 Dec, 2017</span>
-                                    <span><i class="fa fa-user"></i>Admin</span>
-                                </div>
-                                <h5><a href="blog-detail.html">Vitae elementum curabitur vitae nunc.</a></h5>
-                                <p>Sed vulputate elementum aliquam Nunc vel efficitur ante. Ut gravida nulla id ornare sodales.</p>
                                 <div class="news-btn clearfix">
-                                    <a href="blog-detail.html" class="btn btn-primary">Read More</a>
+                                    <p class="btn btn-primary">A trip to North India</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="news-item">
                         <div class="news-item-inner">
-                            <figure><a href="blog-detail.html"><img src="images/news/2.jpg" alt=""></a></figure>
+                            <figure><img src="images/news/2.jpg" alt=""></figure>
                             <div class="news-item-content">
-                                <div class="news-date">
-                                    <span><i class="fa fa-calendar"></i>17 Dec, 2017</span>
-                                    <span><i class="fa fa-user"></i>Admin</span>
-                                </div>
-                                <h5><a href="blog-detail.html">Vitae elementum curabitur vitae nunc.</a></h5>
-                                <p>Sed vulputate elementum aliquam Nunc vel efficitur ante. Ut gravida nulla id ornare sodales.</p>
                                 <div class="news-btn clearfix">
-                                    <a href="blog-detail.html" class="btn btn-primary">Read More</a>
+                                    <p class="btn btn-primary">Gurupoornima 2013 - Celebration</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="news-item">
                         <div class="news-item-inner">
-                            <figure><a href="blog-detail.html"><img src="images/news/3.jpg" alt=""></a></figure>
+                            <figure><img src="images/news/3.jpg" alt=""></figure>
                             <div class="news-item-content">
-                                <div class="news-date">
-                                    <span><i class="fa fa-calendar"></i>17 Dec, 2017</span>
-                                    <span><i class="fa fa-user"></i>Admin</span>
-                                </div>
-                                <h5><a href="blog-detail.html">Vitae elementum curabitur vitae nunc.</a></h5>
-                                <p>Sed vulputate elementum aliquam Nunc vel efficitur ante. Ut gravida nulla id ornare sodales.</p>
                                 <div class="news-btn clearfix">
-                                    <a href="blog-detail.html" class="btn btn-primary">Read More</a>
+                                    <p class="btn btn-primary">Oora Habba 2013</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-item-inner">
+                            <figure><img src="images/news/4.jpg" alt=""></figure>
+                            <div class="news-item-content">
+                                <div class="news-btn clearfix">
+                                    <p class="btn btn-primary">Go Green Day</p>
                                 </div>
                             </div>
                         </div>
@@ -563,425 +587,6 @@
             </div>
         </div>
     </section>
-
-    <!-- bizface-price-start -->
-    <section class="bizface-price section grey-background">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="sec-title">
-                        <h2>Our price</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Praesent interdum.</p>
-                    </div>
-                </div>
-                <div class="bizface-price-inner">
-                    <div class="col-sm-6 col-md-3">
-                        <div class="price-content">
-                            <div class="price-content-header">
-                                Personal
-                            </div>
-                            <div class="price-content-cost">
-                                <div class="price-content-cost-inner">
-                                    <span class="currency">$</span>
-                                    <span class="amount">6</span>
-                                    <span class="cent">per month</span>
-                                </div>
-                            </div>
-                            <div class="price-content-list">
-                                <ul>
-                                    <li>15 projects</li>
-                                    <li>1 Year of Updates & Support</li>
-                                    <li>30 GB Storage</li>
-                                    <li>Unlimited Data Transfer</li>
-                                    <li>50 GB Bandwith</li>
-                                </ul>
-                            </div>
-                            <div class="price-btn">
-                                <a href="#" class="btn btn-primary">order now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3">
-                        <div class="price-content premium-price">
-                            <div class="price-content-header">
-                                Preimium
-                            </div>
-                            <div class="price-content-ribbon">
-                                <div class="price-ribbon-inner">
-                                    popular
-                                </div>
-                            </div>
-                            <div class="price-content-cost">
-                                <div class="price-content-cost-inner">
-                                    <span class="currency">$</span>
-                                    <span class="amount">18</span>
-                                    <span class="cent">per month</span>
-                                </div>
-                            </div>
-                            <div class="price-content-list">
-                                <ul>
-                                    <li>30 projects</li>
-                                    <li>1 Year of Updates & Support</li>
-                                    <li>30 GB Storage</li>
-                                    <li>Unlimited Data Transfer</li>
-                                    <li>50 GB Bandwith</li>
-                                </ul>
-                            </div>
-                            <div class="price-btn">
-                                <a href="#" class="btn btn-primary">order now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3">
-                        <div class="price-content">
-                            <div class="price-content-header">
-                                Standard
-                            </div>
-                            <div class="price-content-cost">
-                                <div class="price-content-cost-inner">
-                                    <span class="currency">$</span>
-                                    <span class="amount">12</span>
-                                    <span class="cent">per month</span>
-                                </div>
-                            </div>
-                            <div class="price-content-list">
-                                <ul>
-                                    <li>15 projects</li>
-                                    <li>1 Year of Updates & Support</li>
-                                    <li>30 GB Storage</li>
-                                    <li>Unlimited Data Transfer</li>
-                                    <li>50 GB Bandwith</li>
-                                </ul>
-                            </div>
-                            <div class="price-btn">
-                                <a href="#" class="btn btn-primary">order now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3">
-                        <div class="price-content">
-                            <div class="price-content-header">
-                                Business
-                            </div>
-                            <div class="price-content-cost">
-                                <div class="price-content-cost-inner">
-                                    <span class="currency">$</span>
-                                    <span class="amount">8</span>
-                                    <span class="cent">per month</span>
-                                </div>
-                            </div>
-                            <div class="price-content-list">
-                                <ul>
-                                    <li>15 projects</li>
-                                    <li>1 Year of Updates & Support</li>
-                                    <li>30 GB Storage</li>
-                                    <li>Unlimited Data Transfer</li>
-                                    <li>50 GB Bandwith</li>
-                                </ul>
-                            </div>
-                            <div class="price-btn">
-                                <a href="#" class="btn btn-primary">order now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- testimonial -->
-    <section class="testimonials section">
-        <div class="container">
-            <div class="sec-title text-center">
-                <h2>What our client say</h2>
-                <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
-                <span class="colorborder"></span>
-            </div>
-            <div class="testimonial-carousel owl-carousel owl-theme">
-                <div class="item">
-                    <div class="single-testimonials">
-                        <div class="testi-img">
-                            <img src="images/users/1.jpg" alt="Awesome Image" />
-                        </div>
-                        <p>“ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed. ”</p>
-                        <div class="author-content">
-                            <h3>Bsu Khanal</h3>
-                            <p>Marketing Agency Ltd.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="single-testimonials">
-                        <div class="testi-img">
-                            <img src="images/users/2.jpg" alt="Awesome Image" />
-                        </div>
-                        <p>“ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed. ”</p>
-                        <div class="author-content">
-                            <h3>Khanalprem</h3>
-                            <p>Ligentech Pvt.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="single-testimonials">
-                        <div class="testi-img">
-                            <img src="images/users/1.jpg" alt="Awesome Image" />
-                        </div>
-                        <p>“ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed. ”</p>
-                        <div class="author-content">
-                            <h3>Dahal Dipen</h3>
-                            <p>pbwebdesign Pvt.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="single-testimonials">
-                        <div class="testi-img">
-                            <img src="images/users/2.jpg" alt="Awesome Image" />
-                        </div>
-                        <p>“ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed. ”</p>
-                        <div class="author-content">
-                            <h3>Khanalramesh</h3>
-                            <p>Templatesell Pvt.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="single-testimonials">
-                        <div class="testi-img">
-                            <img src="images/users/1.jpg" alt="Awesome Image" />
-                        </div>
-                        <p>“ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed. ”</p>
-                        <div class="author-content">
-                            <h3>Abrik biyond</h3>
-                            <p>Marketing Agency Ltd.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- testimonial end -->
-
-    <!-- video section -->
-    <div class="home-video">
-        <video id="video-shot" autoplay="" muted controls="" loop="">
-            <source src="images/video/video.mp4" type="video/mp4">
-        </video>
-        <div class="video-overlay"></div>
-        <div class="video-overlay-content">
-            <h2>Anywhere you need us to take</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit enean commodo ligula.<br>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
-            <div class="video-overlay-call">
-                <span>call Now</span><span>(+977) - 9856055360</span>
-            </div>
-            <a href="#" class="btn btn-primary">book online</a>
-        </div>
-    </div>
-    <!-- video end -->
-    
-   
-     <!-- Start Team -->
-    <section class="team section">
-        <div class="container">
-            <div class="row">
-                <div class="sec-title text-center">
-                    <h2>Our Teams</h2>
-                    <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
-                    <span class="colorborder"></span>
-                </div>
-                <div class="team-carousel owl-carousel owl-theme">
-                    <div class="team-details">
-                        <div class="team-img">
-                            <img src="images/team/1.jpg" alt="#">
-                        </div>
-                        <div class="team-bottom">
-                            <div class="team-text">
-                                <h3 class="team-name">Bsu Khanal</h3>
-                                <p class="team-post">Project Manger</p>
-                                <div class="team-social">
-                                    <ul>
-                                        <li>
-                                            <a href="http://facebook.com" title="" target="_blank">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="http://twitter.com" title="" target="_blank">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="http://instagram.com" title="" target="_blank">
-                                                <i class="fa fa-instagram"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-details">
-                        <div class="team-img">
-                            <img src="images/team/2.jpg" alt="#">
-                        </div>
-                        <div class="team-bottom">
-                            <div class="team-text">
-                                <h3 class="team-name">Khanalprem</h3>
-                                <p class="team-post">Fronend developer</p>
-                                <div class="team-social">
-                                    <ul>
-                                        <li>
-                                            <a href="http://facebook.com" title="" target="_blank">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="http://twitter.com" title="" target="_blank">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="http://instagram.com" title="" target="_blank">
-                                                <i class="fa fa-instagram"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-details">
-                        <div class="team-img">
-                            <img src="images/team/3.jpg" alt="#">
-                        </div>
-                        <div class="team-bottom">
-                            <div class="team-text">
-                                <h3 class="team-name">Dahaldipen</h3>
-                                <p class="team-post">Developer</p>
-                                <div class="team-social">
-                                    <ul>
-                                        <li>
-                                            <a href="http://facebook.com" title="" target="_blank">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="http://twitter.com" title="" target="_blank">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="http://instagram.com" title="" target="_blank">
-                                                <i class="fa fa-instagram"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-details">
-                        <div class="team-img">
-                            <img src="images/team/4.jpg" alt="#">
-                        </div>
-                        <div class="team-bottom">
-                            <div class="team-text">
-                                <h3 class="team-name">amyraj</h3>
-                                <p class="team-post">Dotnep developer</p>
-                                <div class="team-social">
-                                    <ul>
-                                        <li>
-                                            <a href="http://facebook.com" title="" target="_blank">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="http://twitter.com" title="" target="_blank">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="http://instagram.com" title="" target="_blank">
-                                                <i class="fa fa-instagram"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-details">
-                        <div class="team-img">
-                            <img src="images/team/2.jpg" alt="#">
-                        </div>
-                        <div class="team-bottom">
-                            <div class="team-text">
-                                <h3 class="team-name">Andrew taimond</h3>
-                                <p class="team-post">Android developer</p>
-                                <div class="team-social">
-                                    <ul>
-                                        <li>
-                                            <a href="http://facebook.com" title="" target="_blank">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="http://twitter.com" title="" target="_blank">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="http://instagram.com" title="" target="_blank">
-                                                <i class="fa fa-instagram"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--/ End Team -->
-
-    <!-- happyclient start -->
-    <section class="clients section grey-background">
-        <div class="container">
-            <div class="sec-title text-center">
-                <h2>Happy clients</h2>
-                <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
-                <span class="colorborder"></span>
-            </div>
-            <div class="owl-carousel owl-theme happy-clients">
-                <div class="item">
-                    <img src="images/clients/logo-1.png" alt="" class="img-responsive">
-                </div>
-                <div class="item">
-                    <img src="images/clients/logo-3.png" alt="" class="img-responsive">
-                </div>
-                <div class="item">
-                    <img src="images/clients/logo-4.png" alt="" class="img-responsive">
-                </div>
-                <div class="item">
-                    <img src="images/clients/logo-5.png" alt="" class="img-responsive">
-                </div>
-                <div class="item">
-                    <img src="images/clients/logo-6.png" alt="" class="img-responsive">
-                </div>
-                <div class="item">
-                    <img src="images/clients/logo-4.png" alt="" class="img-responsive">
-                </div>
-                <div class="item">
-                    <img src="images/clients/logo-3.png" alt="" class="img-responsive">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- happyclient end -->
 
     <!--Footer-->
     <footer>
@@ -989,83 +594,58 @@
             <div class="row">
                 <div class="col-md-4 col-sm-12 col-xs-12">
                     <div class="footer-widget">
-                        <h3>Bizface</h3>
+                        <h3>Jeevana Dharma Yoga Trust</h3>
                         <div class="widget-content">
-                            <div class="text">Lorem ipsum dolor sit amet, consects adipiscing elit enean commodo ligula.</div>
+                            <div class="text">Sreedhara Gudda Road,<br/>
+                                Kodipalya, Kengeri,<br/>
+                                Bangalore, Karnataka - 560060</div>
                             <address>
-                                <p><a href="#"><i class="fa fa-map-marker"></i></a> USA, America</p>
-                                <p><a href="#"><i class="fa fa-phone"></i></a>+977-9746390089</p>
-                                <p><a href="#"><i class="fa fa-envelope"></i></a> ripplethemes@gmail.com</p>
+                                <p><a href="#"><i class="fa fa-map-marker"></i></a> Karnataka, India</p>
+                                <p><a href="tel:+91 94480 54116"><i class="fa fa-phone"></i></a>Bhanu Rao : 080 2848 3436 / +91 94480 54116</p>
+                                <p><a href="#"><i class="fa fa-envelope"></i></a> Bhanujdy@gmail.com</p>
                             </address>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-5 col-sm-6 col-xs-12">
-                    <div class="footer-widget links-widget">
-                        <h3>Explore</h3>
-                    
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-sm-12">
-                            <ul>
-                                <li><a href="#">home</a></li>
-                                <li><a href="#">about</a></li>
-                                <li><a href="#">services</a></li>
-                                <li><a href="#">projects</a></li>
-                                <li><a href="#">contact</a></li>
-                                
-                            </ul>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="footer-widget">
+                        <h3>Canada</h3>
+                        <div class="widget-content">
+                            <div class="text">149 Windance Cr<br/>
+                                Ottawa, Ontario<br/>
+                                Canada K2W 0A6</div>
+                            <address>
+                                <p><a href="#"><i class="fa fa-map-marker"></i></a> Ottawa, Canada</p>
+                                <p><a href="tel:613 795 5899"><i class="fa fa-phone"></i></a>Rajiv Iyer : 613 435 4899 / 613 795 5899</p>
+                                <p><a href="#"><i class="fa fa-envelope"></i></a>gurumatha.seva@gmail.com</p>
+                            </address>
                         </div>
-                        <div class="col-md-6 col-sm-6 col-sm-12">
-                            <ul>
-                                <li><a href="#">News</a></li>
-                                <li><a href="#">Trade</a></li>
-                                <li><a href="#">Investment</a></li>
-                                <li><a href="#">projects</a></li>
-                                <li><a href="#">contact</a></li>
-                                
-                            </ul>
-                        </div>
-                    </div>
                     </div>
                 </div>
-
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="footer-widget subscribe-widget">
-                        <h3>Newsletter</h3>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="footer-widget">
+                        <h3>VIDEHA SHETRA ASHRAM</h3>
                         <div class="widget-content">
-                            <div class="text">Lorem ipsum dolor sit amet, adipiscing </div>
-                            <div class="newsletter-form">
-                                <form>
-                                    <div class="form-group">
-                                        <input type="email" name="email" value="" placeholder="Email Address..." required>
-                                    </div>
-                                    <div class="form-group">
-                                        <button type="submit" class="btn btn-primary">suscribe now</button>
-                                    </div>
-                                </form>
-                            </div>
+                            <div class="text">Cruz del Norte No. 14-34<br/>
+                                Sta Cruz del Monte<br/>
+                                Naucalpan, Edo de Mex 53110, México.</div>
+                            <address>
+                                <p><a href="#"><i class="fa fa-map-marker"></i></a> Naucalpan, México</p>
+                                <p><a href="tel:(52 55) 5393 2502"><i class="fa fa-phone"></i></a>Nova Trading (Anantha) : (52 55) 5393 2502</p>
+                                <p><a href="#"><i class="fa fa-envelope"></i></a>novatrdg@hotmail.com, novatrdg@prodigy.net.mx</p>
+                            </address>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        
+        </div>        
     </footer>
     <!--Footer Bottom-->
     <div class="footer-bottom">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
-                    <div class="text text-left">Copyrights &copy; <a href="#">ripplethemes</a>. All Rights Reserved</div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <ul class="social-links text-right">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="active"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    </ul>
+                    <div class="text text-left">Copyrights &copy; <script>document.write(new Date().getFullYear());</script> &reg; <a href="#">Jeevana Dharma Yoga Trust</a>. All Rights Reserved</div>
                 </div>
             </div>
         </div>
@@ -1086,7 +666,6 @@
     <script  src="js/jquery.counterup.min.js"></script>
     <script  src=js/wow.js></script>
     <script  src="js/script.js"></script>
-
     <!-- js library end -->
 
 </body>
