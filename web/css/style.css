@@ -686,7 +686,7 @@ h3.title {
 a.agilebtn {
 	font-size: 1em;
 	color: #fff; 
-	background: #00BCD4;
+	background: transparent;
 	padding: 0.7em 2em;
 	display: inline-block; 
 	outline:none;
@@ -706,7 +706,6 @@ a.agilebtn {
 	width: 100%;
 	height: 100%;
 	z-index: 1;
-	border: 1px solid #fff;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.5s;
