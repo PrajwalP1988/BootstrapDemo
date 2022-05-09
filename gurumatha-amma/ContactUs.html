@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Contact Us</title>
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+<link href="styles.css" rel="stylesheet" type="text/css">
+
+<style>
+      #map_canvas {
+        width: 650px;
+        height: 350px;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script>
+      function initialize() {
+        var map_canvas = document.getElementById('map_canvas');
+        var map_options = {
+          center: new google.maps.LatLng(12.90027, 77.49082),
+          zoom: 16,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(map_canvas, map_options)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+    <SCRIPT LANGUAGE="JavaScript">
+
+function verify() {
+var themessage = "Please enter value for following fields: ";
+if (document.form.author.value=="") {
+themessage = themessage + " - Full Name";
+}
+if (document.form.email.value=="") {
+themessage = themessage + " -  Email Id";
+}
+if (document.form.subject.value=="") {
+themessage = themessage + " -  Contact No.";
+}
+
+if (document.form.text.value=="") {
+themessage = themessage + " and  Message";
+}
+//alert if fields are empty and cancel form submit
+if (themessage == "Please enter value for following fields: ") {
+document.submit();
+}
+else {
+//document.form.print(themessage);
+window.alert(themessage);
+return false;
+   }
+}
+</script>
+</head>
+
+<body>
+<div id="templatemo_container">
+	<div id="templatemo_banner">
+    	<div id="logo"></div>
+        <div id="logoTitle"></div>
+        <div id="logoImgRight"></div>
+    </div>
+    <!-- end of banner -->
+    
+    <div id='cssmenu'>
+		<ul>
+            <li><a href='home.html'><span>Home</span></a></li>
+            <li><a href='UpcomingEvents.html'><span>Events &amp; Programs</span></a></li>
+            <li><a href='Gallery.html'><span>Gallery</span></a></li>
+            <li><a href='Publication.html'><span>Publication</span></a></li>
+            <li class='last'><a href='ContactUs.html'><span>Contact Us</span></a></li>
+		</ul>
+	</div> <!-- end of menu -->  	
+    <div id="templatemo_content_wrapper">
+    	<div id="templatemo_content">
+    
+    	<div class="fl vr_divider" style="margin-top:0px;padding:25px 5px 0;height:800px;width:200px">
+        	<div class="header_01">
+            	India<br />
+                <p style="font-size: 12px;color: #CCC;font-weight: normal;">
+                Sreedhara Gudda Road,<br />
+                Kodipalya, Kengeri,<br />
+				Bangalore, <br />
+                Karnataka - 560060<br />
+                Contact Person : Bhanu Rao<br />
+                Email Id : Bhanujdy@gmail.com<br />
+                Phone - 080 28483436/9448054116</p>
+            </div>
+            
+            <div class="header_01">
+            	Canada<br />
+                <p style="font-size: 12px;color: #CCC;font-weight: normal;">
+                149 Windance Cr<br />
+                Ottawa, Ontario<br />
+				Canada K2W 0A6 <br />
+                Contact Person : Rajiv Iyer<br />
+                Email Id : gurumatha.seva@gmail.com<br />
+                Home phone: 613 435 4899<br />
+                Mobile phone: 613 795 5899</p>
+            </div>
+            <div class="header_01">
+            	Mexico<br />
+                <p style="font-size: 12px;color: #CCC;font-weight: normal;">
+                VIDEHA SHETRA ASHRAM<br />
+                Cruz del Norte No. 14-34<br />
+				Sta Cruz del Monte<br />
+                Naucalpan, Edo de Mex<br />
+                53110, México.<br />
+                Contact Person : Nova Trading (Anantha)<br />
+                Email Id : novatrdg@hotmail.com,<br />novatrdg@prodigy.net.mx<br />
+                Tel: (52 55) 5393 2502</p>
+            </div>
+        </div>
+    	<div class="fl" style="width:680px;margin:5px 10px;">
+        	<div class="header_01">Location Map</div>
+            <div id="map_canvas"></div>
+        	<div class="cleaner"></div>
+        <br />
+        <div class="fl" style="border:solid #999 1px; padding:5px; width:640px">
+        <div class="header_01">Enquiry</div>
+        <div id="contact_form">
+       
+               
+      <form method="post" name="form" action="send_mail.php" onSubmit="return verify();">
+					
+						<label for="author" class="fl">Full Name:</label> <input type="text" id="author" name="author" class="required fl input_field" />
+						<div class="cleaner h10"></div>
+													
+						<label for="email" class="fl">Email:</label> <input type="text" class="validate-email required input_field fl" name="email" id="email" />
+						<div class="cleaner h10"></div>
+											
+						<label for="ContactNo" class="fl">Contact No.:</label> <input type="text" class="validate-subject required input_field fl" name="subject" id="subject"/>				               
+						<div class="cleaner h10"></div>
+							
+						<label for="text" class="fl">Message:</label> <textarea id="text" name="text" rows="0" cols="0" class="required fl"></textarea>
+						<div class="cleaner h10"></div>				
+						<input type="reset" value="Reset" id="reset" name="reset" class="submit_btn fl" style="margin-right:5px" />						
+						<input type="submit" value="Send"  name="submit" class="submit_btn fl" style="margin:10px 5px 10px 347px"/>
+						
+						
+				</form>
+   </div> 
+        </div>
+        <div class="cleaner"></div>
+    	 </div>
+	</div> <!-- end of wrapper 02 -->
+    
+    </div> <!-- end of wrapper 01 -->
+    
+    <div id="templatemo_footer">
+    
+    <ul class="footer_list">
+            <li><a href='home.html'><span>Home</span></a></li>
+            <li><a href='UpcomingEvents.html'><span>Events &amp; Programs</span></a></li>
+            <li><a href='Gallery.html'><span>Gallery</span></a></li>
+            <li><a href='Publication.html'><span>Publication</span></a></li>
+            <li class='last'><a href='ContactUs.html'><span>Contact Us</span></a></li>
+        </ul>
+        
+        <div class="margin_bottom_10"></div>
+        
+        Copyright © <script>document.write(new Date().getFullYear());</script> <a href="#">Jeevana Dharma Yoga Trust</a>
+        
+        <div class="margin_bottom_10"></div>
+</body>
+</html>
